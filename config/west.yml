@@ -28,7 +28,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: kbrd-space
-    url-base: https://github.com/kbrd-space
+      url-base: https://github.com/kbrd-space
 
   projects:
     - name: zmk
@@ -116,7 +116,7 @@ manifest:
     # anti-idle moudle
     - name: zmk-anti-idle
       remote: kbrd-space
-      revision: main
+      revision: 
 
   self:
     path: config
