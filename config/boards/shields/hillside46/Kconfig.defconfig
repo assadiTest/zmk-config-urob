@@ -6,10 +6,8 @@ if SHIELD_HILLSIDE46_LEFT
 config ZMK_KEYBOARD_NAME
     default "Hillside46"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-    default y
-
-endif
+config ZMK_SPLIT_ROLE_CENTRAL
+    default yendif
 
 if SHIELD_HILLSIDE46_LEFT || SHIELD_HILLSIDE46_RIGHT
 
