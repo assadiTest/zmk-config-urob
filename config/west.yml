@@ -54,7 +54,7 @@ manifest:
       revision: c08969627245adeddbcdb6dfc1a4c167c04160e2 # main (2026-10-19)
     - name: zmk-unicode
       path: modules/zmk/unicode
-      revision: 6ce21267e497e20ff9e05da16d4eefcdd3e89190 # main (2026-10-19)
+      revision: a1ee16236de5f912a57cd4fe619b0d63b94ea9e5 # main (2026-11-09)
 
     # Avoid downloading GBs of unused Zephyr modules. Remove this section to
     # restore the default (needed for less common hardware).
@@ -71,6 +71,11 @@ manifest:
           - lvgl  # imported independently by ZMK
           - mbedtls
           - tinycrypt
+
+    # anti-idle moudle
+    - name: zmk-anti-idle
+      remote: kbrd-space
+      revision: a1a297598e8a588e588ddaa6f2c737c919bb0dcb
 
     # --- imported projects pinned by pin-west; do not edit ---
     - name: cmsis # via zephyr (west.yml)
@@ -112,11 +117,6 @@ manifest:
       revision: 6cb4c283e76209d59c45fbcb218800cd19e9339d
       path: modules/msgs/zmk-studio-messages
     # --- end of imported projects ---
-
-    # anti-idle moudle
-    - name: zmk-anti-idle
-      remote: kbrd-space
-      revision: a1a297598e8a588e588ddaa6f2c737c919bb0dcb
 
   self:
     path: config
