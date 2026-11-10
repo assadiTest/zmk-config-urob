@@ -104,7 +104,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
 /*
 &mwh {
     time-to-max-speed-ms = <500>;                 // <--- How long time until max speed is reached 
-acceleration-exponent = <1>;
+acceleration-exponent = <2>;
 };
 */
 
