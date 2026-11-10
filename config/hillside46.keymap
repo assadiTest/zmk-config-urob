@@ -353,7 +353,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
             bindings = <
 &kp GRAVE        &kp Q        &kp W            &kp E                &kp R          &kp T                                                             &kp Y         &kp U         &kp I         &kp O        &kp P           &trans
 &mt PIPE EXCL    &hmu LGUI A  &hmu LEFT_ALT S  &hmu LEFT_CONTROL D  &hmu LSHIFT F  &kp G                                                             &kp H         &hmu RSHFT J  &hmu RCTRL K  &hmu LALT L  &hmu LGUI SEMI  &mt UNDER MINUS
-&mt TILDE ASTRK  &kp Z        &kp X            &kp C                &kp V          &kp B         &kp K_APP                          &caps_word       &kp N         &kp M         &kp COMMA     &mouse_layer 0 DOT      &nav_layer 0 SLASH       &mt DQT SQT
+&mt TILDE ASTRK  &kp Z        &kp X            &kp C                &kp V          &kp B         &kp K_APP                          &caps_word       &kp N         &kp M         &mouse_layer 0 COMMA     &nav_layer 0 DOT      &kp SLASH       &mt DQT SQT
                                                                     &key_repeat    &lt 1 ESCAPE  &lt 2 SPACE  &lt 3 TAB  &lt 4 RET  &lt 5 BACKSPACE  &lt 6 DELETE  &key_repeat
             >;
         };
