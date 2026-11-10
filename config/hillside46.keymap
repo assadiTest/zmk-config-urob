@@ -33,28 +33,6 @@
 #define KEYS_T 30 38 39 40 41 \
                42 43 44 45 31
 
-// Smart mouse layer (requires zmk-tri-state)
-#define MOUSE 2
-
-ZMK_TRI_STATE(
-    smart_mouse,
-    bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
-    ignored-key-positions =
-        <13 14 15 16
-         19 20 21 22
-         33 34 35 36
-         42 43 44>;
-    ignored-layers = <MOUSE>;
-)
-
-// Tap: period | Hold: smart mouse
-ZMK_HOLD_TAP(
-    mouse_layer,
-    bindings = <&smart_mouse>, <&kp>;
-    flavor = "tap-preferred";
-    tapping-term-ms = <600>;
-)
-
 #define BASE 0
 #define NAV  1
 #define MOU  2
@@ -67,6 +45,27 @@ ZMK_HOLD_TAP(
 #define Copy   LC(C)
 #define Paste  LC(V)
 #define Redo   LC(Y)
+
+
+// Smart mouse layer (requires zmk-tri-state)
+ZMK_TRI_STATE(
+    smart_mouse,
+    bindings = <&tog MOU>, <&none>, <&tog MOU>;
+    ignored-key-positions =
+        <13 14 15 16
+         19 20 21 22
+         33 34 35 36
+         42 43 44>;
+    ignored-layers = <MOU>;
+)
+
+// Tap: period | Hold: smart mouse
+ZMK_HOLD_TAP(
+    mouse_layer,
+    bindings = <&smart_mouse>, <&kp>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <600>;
+)
 
 //urob variables
 
