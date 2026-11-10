@@ -285,9 +285,9 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
         anti_idle {
             compatible = "zmk,anti-idle-generic";
             interval-ms = <60000>;
-            bindings = <&mmv MOVE_DOWN &mmv MOVE_UP>;
-            tap_ms = <40>;
-            wait_ms = <200>;
+            bindings = <&mmv MOVE_LEFT &mmv MOVE_RIGHT>;
+            tap_ms = <10>;
+            wait_ms = <50>;
         };
     };
 
