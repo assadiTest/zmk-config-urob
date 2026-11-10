@@ -40,12 +40,6 @@
 #define SYM  4
 #define NUM  5
 #define FUN  6
-#define Undo   LC(Z)
-#define Cut    LC(X)
-#define Copy   LC(C)
-#define Paste  LC(V)
-#define Redo   LC(Y)
-
 
 // Smart mouse layer (requires zmk-tri-state)
 ZMK_TRI_STATE(
