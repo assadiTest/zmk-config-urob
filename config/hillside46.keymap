@@ -32,12 +32,13 @@
 #define KEYS_T 30 38 39 40 41 \
                42 43 44 45 31
 
-#define QWERTY_L 0
-#define DVORAK_L 1
-#define COLEMK_L 2
-#define NAV_L    3
-#define SYM_L    4
-#define ADJ_L    5
+#define BASE 0
+#define NAV  1
+#define MOU  2
+#define MED  3
+#define SYM  4
+#define NUM  5
+#define FUN  6
 #define Undo   LC(Z)
 #define Cut    LC(X)
 #define Copy   LC(C)
