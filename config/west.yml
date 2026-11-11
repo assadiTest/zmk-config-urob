@@ -73,6 +73,11 @@ manifest:
           - mbedtls
           - tinycrypt
 
+    #Anti-idle-mode
+    - name: zmk-anti-idle
+      remote: kbrd-space
+      revision: a1a297598e8a588e588ddaa6f2c737c919bb0dcb # main (2026-11-11)
+
     # --- imported projects pinned by pin-west; do not edit ---
     - name: cmsis # via zephyr (west.yml)
       url: https://github.com/zephyrproject-rtos/cmsis
@@ -113,11 +118,6 @@ manifest:
       revision: 6cb4c283e76209d59c45fbcb218800cd19e9339d
       path: modules/msgs/zmk-studio-messages
     # --- end of imported projects ---
-
-    #Anti-idle-mode
-    - name: zmk-anti-idle
-      remote: kbrd-space
-      revision: main
 
       
   self:
