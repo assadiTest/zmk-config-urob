@@ -28,8 +28,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
       #Anti-idle-mode
-    - name: kbrd-space
-      url-base: https://github.com/kbrd-space
+    - name: assadiTest
+      url-base: https://github.com/assadiTest
 
   projects:
     - name: zmk
@@ -116,7 +116,7 @@ manifest:
 
     #Anti-idle-mode
     - name: zmk-anti-idle
-      remote: kbrd-space
+      remote: assadiTest
       revision: main
 
       
