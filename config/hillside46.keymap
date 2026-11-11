@@ -157,7 +157,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
 / {
     anti_idle {
         compatible = "zmk,anti-idle-generic";
-        interval-ms = <60000>;
+        interval-ms = <5000>;
         bindings = <&mmv MOVE_RIGHT &mmv MOVE_LEFT>;
         tap_ms = <40>;
         wait_ms = <200>;
