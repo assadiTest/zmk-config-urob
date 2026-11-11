@@ -84,14 +84,6 @@ ZMK_HOLD_TAP(
     tapping-term-ms = <600>;
 )
 
-anti_idle {
-    compatible = "zmk,anti-idle-generic";
-    interval-ms = <60000>;
-    bindings = <&mmv MOVE_RIGHT &mmv MOVE_LEFT>;
-    tap_ms = <40>;
-    wait_ms = <200>;
-};
-
 //urob variables
 
 #define HM_TAPPING_TERM 300
@@ -295,10 +287,11 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
         anti_idle {
             compatible = "zmk,anti-idle-generic";
             interval-ms = <60000>;
-            bindings = <&mmv MOVE_LEFT &mmv MOVE_RIGHT>;
-            tap_ms = <10>;
-            wait_ms = <50>;
+            bindings = <&mmv MOVE_RIGHT &mmv MOVE_LEFT>;
+            tap_ms = <40>;
+            wait_ms = <200>;
         };
+
     };
 
     combos {
