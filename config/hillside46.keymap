@@ -18,6 +18,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <behaviors/anti_idle_mode.dtsi>
+#include <dt-bindings/anti_idle_mode.h>
 
 // Left-hand alphanumeric keys
 #define KEYS_L 0 1 2 3 4 5 \
@@ -53,7 +55,7 @@ ZMK_TRI_STATE(
     ignored-layers = <MOU>;
 )
 
-// Tap: period | Hold: smart mouse
+// Tap: comma | Hold: smart mouse
 ZMK_HOLD_TAP(
     mouse_layer,
     bindings = <&smart_mouse>, <&kp>;
@@ -74,13 +76,21 @@ ZMK_TRI_STATE(
     ignored-layers = <NAV>;
 )
 
-// Tap: slash | Hold: smart navigation
+// Tap: dot | Hold: smart navigation
 ZMK_HOLD_TAP(
     nav_layer,
     bindings = <&smart_nav>, <&kp>;
     flavor = "tap-preferred";
     tapping-term-ms = <600>;
 )
+
+anti_idle {
+    compatible = "zmk,anti-idle-generic";
+    interval-ms = <60000>;
+    bindings = <&mmv MOVE_RIGHT &mmv MOVE_LEFT>;
+    tap_ms = <40>;
+    wait_ms = <200>;
+};
 
 //urob variables
 
@@ -354,7 +364,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
 &kp GRAVE        &kp Q        &kp W            &kp E                &kp R          &kp T                                                             &kp Y         &kp U         &kp I         &kp O        &kp P           &aim
 &mt PIPE EXCL    &hmu LGUI A  &hmu LEFT_ALT S  &hmu LEFT_CONTROL D  &hmu LSHIFT F  &kp G                                                             &kp H         &hmu RSHFT J  &hmu RCTRL K  &hmu LALT L  &hmu LGUI SEMI  &mt UNDER MINUS
 &mt TILDE ASTRK  &kp Z        &kp X            &kp C                &kp V          &kp B         &kp K_APP                          &caps_word       &kp N         &kp M         &mouse_layer 0 COMMA     &nav_layer 0 DOT      &kp SLASH       &mt DQT SQT
-                                                                    &key_repeat    &lt 1 ESCAPE  &lt 2 SPACE  &lt 3 TAB  &lt 4 RET  &lt 5 BACKSPACE  &lt 6 DELETE  &key_repeat
+                                                                    &key_repeat    &lt 1 ESCAPE  &lt 2 SPACE  &lt 3 TAB  &lt 4 RET  &lt 5 BACKSPACE  &lt 6 DELETE  &aim AIM_TOG
             >;
         };
 
