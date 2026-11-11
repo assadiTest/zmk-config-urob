@@ -33,6 +33,10 @@ manifest:
       remote: zmkfirmware
       revision: 4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85 # main (2026-10-19)
       import: app/west.yml
+      #Anti-idle-mode
+    - name: kbrd-space
+      url-base: https://github.com/kbrd-space
+
 
     # ZMK modules
     - name: zmk-adaptive-key
@@ -111,5 +115,11 @@ manifest:
       path: modules/msgs/zmk-studio-messages
     # --- end of imported projects ---
 
+    #Anti-idle-mode
+    - name: zmk-anti-idle
+      remote: kbrd-space
+      revision: main
+
+      
   self:
     path: config
