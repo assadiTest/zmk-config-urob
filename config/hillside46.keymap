@@ -313,17 +313,6 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
             key-positions = <12 23>;
         };
 
-        to_colemak {
-            bindings = <&tog 7>;
-            key-positions = <30 31>;
-            layers = <0>;
-        };
-
-        to_qwerty {
-            bindings = <&tog 0>;
-            key-positions = <30 31>;
-            layers = <7>;
-        };
     };
 
     macros {
@@ -370,10 +359,10 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
                                        &trans     &trans  &trans  &trans  &kp ENTER  &kp BSPC  &kp DELETE    &trans
             >;
 
-            label = "Nav";
+            label = "Navigation";
         };
 
-        Mouse {
+        Mou {
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans                                        &trans     &trans          &trans          &trans        &trans           &tog 0
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                        &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
@@ -384,7 +373,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
             label = "Mouse";
         };
 
-        Media {
+        Med {
             bindings = <
 &trans  &trans        &trans        &trans     &trans     &trans                                                &trans             &trans               &out OUT_TOG  &trans        &trans                     &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &trans                                                &ext_power EP_TOG  &mt C_REWIND C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &mt C_FAST_FORWARD C_NEXT  &trans
@@ -403,7 +392,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
                                                       &trans                &trans                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "Sym";
+            label = "Symbol";
         };
 
         Num {
@@ -414,7 +403,7 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
                                            &trans  &kp DOT    &kp N0  &kp MINUS  &trans  &trans  &trans  &trans
             >;
 
-            label = "Num";
+            label = "Number";
         };
 
         Fun {
@@ -425,17 +414,9 @@ usually set to 0 for constant speed, 1 for uniform acceleration or
                                  &trans  &trans           &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "Fun";
+            label = "Function";
         };
 
-        colemak {
-            bindings = <
-&kp GRAVE             &kp Q        &kp W            &kp F         &kp P         &kp B                                                             &kp J         &kp L         &kp U         &kp Y            &kp SEMI     &mt RIGHT_BRACKET LEFT_BRACKET
-&mt PIPE EXCLAMATION  &hmu LGUI A  &hmu LEFT_ALT R  &hmu LCTRL S  &hmu LSHFT T  &kp G                                                             &kp M         &hmu LSHFT N  &hmu LCTRL E  &hmu LEFT_ALT I  &hmu LGUI O  &kp MINUS
-&mt TILDE ASTERISK    &kp Z        &kp X            &kp C         &kp V         &kp D         &kp K_APP                          &caps_word       &kp K         &kp H         &kp COMMA     &kp DOT          &kp FSLH     &kp SQT
-                                                                  &key_repeat   &lt 1 ESCAPE  &lt 2 SPACE  &lt 3 TAB  &lt 4 RET  &lt 5 BACKSPACE  &lt 6 DELETE  &key_repeat
-            >;
-        };
     };
 
     conditional_layers {
