@@ -1,0 +1,340 @@
+layout: {zmk_keyboard: hillside46}
+layers:
+  qwerty:
+  - '`'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '&aim AIM_TOG'
+  - {t: '!', h: '|'}
+  - {t: A, h: Gui}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LSHIFT}
+  - G
+  - H
+  - {t: J, h: Shift}
+  - {t: K, h: Ctrl}
+  - {t: L, h: Alt}
+  - {t: ;, h: Gui}
+  - {t: '-', h: _}
+  - {t: '*', h: '~'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - APP
+  - Caps Word
+  - N
+  - M
+  - {t: ',', h: Smart Mouse}
+  - {t: ., h: '&smart_nav'}
+  - /
+  - {t: '''', h: '"'}
+  - '&key_repeat'
+  - {t: ESCAPE, h: Navigation}
+  - {t: Spc, h: Mouse}
+  - {t: Tab, h: Media}
+  - {t: Enter, h: Symbol}
+  - {t: BACKSPACE, h: Number}
+  - {t: DELETE, h: Function}
+  - '&key_repeat'
+  Navigation:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - UNDO
+  - Home
+  - PgDn
+  - PgUp
+  - End
+  - {type: trans}
+  - {type: trans}
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - {type: trans}
+  - CAPSLOCK
+  - ←
+  - ↓
+  - ↑
+  - →
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - REDO
+  - Ins
+  - COPY
+  - PASTE
+  - CUT
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - ENTER
+  - Bspc
+  - DELETE
+  - {type: trans}
+  Mouse:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: qwerty, h: toggle}
+  - {type: trans}
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - {type: trans}
+  - {type: trans}
+  - Mouse ←
+  - Mouse ↓
+  - Mouse ↑
+  - Mouse →
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - Scroll ←
+  - Scroll ↓
+  - Scroll ↑
+  - Scroll →
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - Middle Click
+  - Left Click
+  - Right Click
+  - {type: trans}
+  Media:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - OUT TOG
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - LEFT GUI
+  - LEFT ALT
+  - Ctrl
+  - Shift
+  - {type: trans}
+  - EP TOG
+  - {t: '$$mdi:skip-backward$$', h: REWIND}
+  - $$mdi:volume-medium$$
+  - $$mdi:volume-high$$
+  - {t: '$$mdi:skip-forward$$', h: FAST FORWARD}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - {t: BT, h: '4'}
+  - '&key_repeat'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - STOP
+  - PLAY PAUSE
+  - $$mdi:volume-off$$
+  - {type: trans}
+  Symbol:
+  - KP NUMLOCK
+  - '!'
+  - $
+  - '&'
+  - (
+  - )
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - ':'
+  - '@'
+  - '%'
+  - '*'
+  - '['
+  - ']'
+  - {type: trans}
+  - LSHIFT
+  - Ctrl
+  - Alt
+  - Gui
+  - {type: trans}
+  - '~'
+  - '#'
+  - ^
+  - '|'
+  - '{'
+  - '}'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  Number:
+  - KP COMMA
+  - KP PLUS
+  - '7'
+  - '4'
+  - '1'
+  - '='
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - ':'
+  - Tab
+  - '8'
+  - '5'
+  - '2'
+  - /
+  - {type: trans}
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - {type: trans}
+  - '*'
+  - Enter
+  - '9'
+  - '6'
+  - '3'
+  - \
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - .
+  - '0'
+  - '-'
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  Function:
+  - {type: trans}
+  - F10
+  - F7
+  - F4
+  - F1
+  - PRINTSCREEN
+  - {type: trans}
+  - F13
+  - F16
+  - F19
+  - F22
+  - {type: trans}
+  - {type: trans}
+  - F11
+  - F8
+  - F5
+  - F2
+  - SCROLLLOCK
+  - {type: trans}
+  - {t: F14, h: LSHIFT}
+  - {t: F17, h: Ctrl}
+  - {t: F20, h: Alt}
+  - {t: F22, h: Gui}
+  - {type: trans}
+  - {type: trans}
+  - F12
+  - F9
+  - F6
+  - F3
+  - PAUSE BREAK
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - F15
+  - F18
+  - F21
+  - F24
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  Combos: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '']
+combos:
+- p: [16, 19]
+  k: Caps Word
+- p: [0, 11]
+  k: '&szia'
+- p: [12, 23]
+  k: '&udv'

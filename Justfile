@@ -114,6 +114,25 @@ draw: _check_yq_version
     keymap -c "{{ draw }}/config.yaml" draw "{{ draw }}/overview.yaml" -k "ferris/sweep" >"{{ draw }}/overview.svg"
     sed -i '/<text.*class="label"/d' "{{ draw }}/overview.svg"
 
+# Generate combined Hillside 46 overview
+[group('build & draw')]
+draw-hillside46:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    keymap -c "{{ draw }}/config.yaml" parse \
+        -z "{{ config }}/hillside46.keymap" \
+        --virtual-layers Combos \
+        > "{{ draw }}/hillside46.yaml"
+
+    python3 "{{ draw }}/hillside46-overview.py" \
+        "{{ draw }}/hillside46.yaml" \
+        "{{ draw }}/hillside46-overview.yaml"
+
+    keymap -c "{{ draw }}/config.yaml" draw \
+        "{{ draw }}/hillside46-overview.yaml" \
+        > "{{ draw }}/hillside46-overview.svg"
+
 # initialize the west workspace
 [group('workspace')]
 init:
