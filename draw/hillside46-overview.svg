@@ -23,10 +23,15 @@ svg.keymap {
     --color-dendron: #d5c4a1;
     --color-held:    #bdae93;
 
-    --color-fn:      #458588;
-    --color-nav:     #d79921;
-    --color-num:     #d65d0e;
-    --color-sys:     #689d6a;
+    /* Left-hand layers */
+    --color-sym: #b16286;
+    --color-num: #d65d0e;
+    --color-fun: #98971a;
+
+    /* Right-hand layers */
+    --color-nav: #d79921;
+    --color-mou: #458588;
+    --color-med: #689d6a;
 
     fill: var(--color-text);
     background-color: var(--color-bg);
