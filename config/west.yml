@@ -34,7 +34,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: 4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85 # main (2026-10-19)
+      revision: 4de313367288aad5aeaa1243890e40dc813f7008 # main (2026-11-16)
       import: app/west.yml
 
     # ZMK modules
@@ -72,6 +72,11 @@ manifest:
           - lvgl  # imported independently by ZMK
           - mbedtls
           - tinycrypt
+
+    #Anti-idle-mode
+    - name: zmk-anti-idle
+      remote: assadiTest
+      revision: d77adf04e9c2a39d2dc1dac0e53aabe982d7f10f # main (2026-11-16)
 
     # --- imported projects pinned by pin-west; do not edit ---
     - name: cmsis # via zephyr (west.yml)
@@ -113,11 +118,6 @@ manifest:
       revision: 6cb4c283e76209d59c45fbcb218800cd19e9339d
       path: modules/msgs/zmk-studio-messages
     # --- end of imported projects ---
-
-    #Anti-idle-mode
-    - name: zmk-anti-idle
-      remote: assadiTest
-      revision: main
 
       
   self:
