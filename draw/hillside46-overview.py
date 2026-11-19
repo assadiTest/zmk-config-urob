@@ -6,7 +6,10 @@ import sys
 import yaml
 
 
-source, destination, keymap_file, css_destination = sys.argv[1:5]
+source, destination, keymap_file, overview_config_file = sys.argv[1:5]
+
+with open(overview_config_file, encoding="utf-8") as f:
+    overview_config = yaml.safe_load(f)
 
 
 def read_key_positions(filename, macro_name):

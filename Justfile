@@ -128,7 +128,8 @@ draw-hillside46:
     python3 "{{ draw }}/hillside46-overview.py" \
         "{{ draw }}/hillside46.yaml" \
         "{{ draw }}/hillside46-overview.yaml" \
-        "{{ config }}/hillside46.keymap"
+        "{{ config }}/hillside46.keymap" \
+        "{{ draw }}/hillside46-config.yaml"
 
     keymap -c "{{ draw }}/config.yaml" draw \
         "{{ draw }}/hillside46-overview.yaml" \

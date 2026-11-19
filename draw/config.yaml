@@ -185,30 +185,6 @@ draw_config:
   outer_pad_h: 10
   small_pad: 4
 
-hillside_overview:
-  base_layer: qwerty
-
-  hands:
-    left: KEYS_L
-    right: KEYS_R
-
-  legends:
-    left:
-      - layer: Sym
-        corner: tl
-      - layer: Num
-        corner: tr
-      - layer: Fun
-        corner: bl
-
-    right:
-      - layer: Nav
-        corner: tl
-      - layer: Mou
-        corner: tr
-      - layer: Med
-        corner: bl
-
   svg_style: |
     svg path { fill: inherit; }
 
