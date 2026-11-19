@@ -266,14 +266,13 @@ draw_config:
         --color-dendron: #504945;
         --color-held:    #665c54;
 
-        /* Left-hand layers */
-        --color-sym: #b16286;
-        --color-num: #d65d0e;
-        --color-fun: #98971a;
+        /* Layer-specific legend colors */
+        .legend-sym { fill: var(--color-sym); }
+        .legend-num { fill: var(--color-num); }
+        .legend-fun { fill: var(--color-fun); }
 
-        /* Right-hand layers */
-        --color-nav: #d79921;
-        --color-mou: #458588;
-        --color-med: #689d6a;
+        .legend-nav { fill: var(--color-nav); }
+        .legend-mou { fill: var(--color-mou); }
+        .legend-med { fill: var(--color-med); }
     }
 }
