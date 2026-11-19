@@ -358,7 +358,7 @@ text.br, use.br { fill: var(--color-sys); }
 <text x="0" y="1" class="key tap">/</text>
 <text x="-22" y="-22" class="key tl">CUT</text>
 <text x="22" y="-22" class="key tr"><tspan style="font-size: 88%">Scroll →</tspan></text>
-<text x="-22" y="22" class="key bl">BT</text>
+<text x="-22" y="22" class="key bl">BT 5</text>
 </g>
 <g transform="translate(851, 203)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -589,4 +589,4 @@ text.br, use.br { fill: var(--color-sys); }
 </g>
 </g>
 </g>
-<text x="900.0" y="634.0" class="footer">urob/zmk-config</text></svg>
+<text x="900.0" y="634.0" class="footer">Hillside46</text></svg>

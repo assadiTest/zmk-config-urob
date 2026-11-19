@@ -178,7 +178,7 @@ layers:
   - BT 2
   - BT 3
   - BT 4
-  - {t: BT, h: '4'}
+  - BT 5
   - '&key_repeat'
   - {type: trans}
   - {type: trans}

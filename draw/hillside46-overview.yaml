@@ -137,7 +137,7 @@ layers:
   - t: /
     tl: CUT
     tr: Scroll →
-    bl: BT
+    bl: BT 5
   - t: ''''
     h: '"'
     bl: '&key_repeat'
