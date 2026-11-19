@@ -62,18 +62,38 @@ if LEFT & RIGHT:
 
 
 # Layer-to-legend configuration.
-LEFT_LAYERS = [
-    ("Symbol", "tl"),
-    ("Number", "tr"),
-    ("Function", "bl"),
-]
-
-RIGHT_LAYERS = [
-    ("Navigation", "tl"),
-    ("Mouse", "tr"),
-    ("Media", "bl"),
-]
-
+LAYER_CONFIG = {
+    "Symbol": {
+        "side": "left",
+        "corner": "tl",
+        "color": "sym",
+    },
+    "Number": {
+        "side": "left",
+        "corner": "tr",
+        "color": "num",
+    },
+    "Function": {
+        "side": "left",
+        "corner": "bl",
+        "color": "fun",
+    },
+    "Navigation": {
+        "side": "right",
+        "corner": "tl",
+        "color": "nav",
+    },
+    "Mouse": {
+        "side": "right",
+        "corner": "tr",
+        "color": "mou",
+    },
+    "Media": {
+        "side": "right",
+        "corner": "bl",
+        "color": "med",
+    },
+}
 
 # Read generated keymap YAML.
 with open(source, encoding="utf-8") as f:
