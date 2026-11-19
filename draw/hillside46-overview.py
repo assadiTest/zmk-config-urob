@@ -59,20 +59,27 @@ def generate_css(base, left, right, layer_config):
 
     # Color secondary legends on the alphanumeric keys.
     for index in sorted(left | right):
-        side = "left" if index in left else "right"
+    side = "left" if index in left else "right"
 
-        for layer_name, config in layer_config.items():
-            if config["side"] != side:
-                continue
+    for layer_name, config in layer_config.items():
+        if config["side"] != side:
+            continue
 
-            corner = config["corner"]
-            color = config["color"]
+        corner = config["corner"]
+        color = config["color"]
 
-            rules.append(
-                f".keypos-{index} text.{corner}, "
-                f".keypos-{index} use.{corner} "
-                f"{{ fill: var(--color-{color}); }}"
-            )
+        label = get_label(
+            layers[layer_name][index]
+        )
+
+        if label is None:
+            continue
+
+        rules.append(
+            f".keypos-{index} text.{corner}, "
+            f".keypos-{index} use.{corner} "
+            f"{{ fill: var(--color-{color}); }}"
+        )
 
     # Discover layer-toggle thumb keys from their hold labels.
     for index, key in enumerate(base):
