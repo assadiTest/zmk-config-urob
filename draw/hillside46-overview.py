@@ -161,6 +161,10 @@ if LEFT & RIGHT or LEFT & THUMBS or RIGHT & THUMBS:
 with open(source, encoding="utf-8") as f:
     data = yaml.safe_load(f)
 
+# Move all combos to the dedicated virtual layer.
+for combo in data.get("combos", []):
+    combo["layers"] = ["Combos"]
+
 layers = data["layers"]
 base = layers["qwerty"]
 
