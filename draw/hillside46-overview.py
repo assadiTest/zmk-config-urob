@@ -1,16 +1,16 @@
 
 #!/usr/bin/env python3
 
-import sys
 import re
+import sys
 import yaml
 
 
-source, destination, keymap_file = sys.argv[1:4]
+source, destination, keymap_file, css_destination = sys.argv[1:5]
 
 
 def read_key_positions(filename, macro_name):
-    """Read a multiline KEYS_L / KEYS_R definition from a ZMK keymap."""
+    """Read a multiline physical-key-position macro."""
 
     with open(filename, encoding="utf-8") as f:
         lines = f.readlines()
@@ -26,14 +26,11 @@ def read_key_positions(filename, macro_name):
 
         content = match.group(1)
 
-        # Collect continued macro lines.
         while lines[i].rstrip().endswith("\\"):
-            content = content.rstrip()
-            content = content[:-1]
+            content = content.rstrip()[:-1]
             i += 1
             content += " " + lines[i].strip()
 
-        # Extract physical key indices.
         positions = [int(x) for x in re.findall(r"\b\d+\b", content)]
 
         if len(positions) != len(set(positions)):
@@ -41,24 +38,59 @@ def read_key_positions(filename, macro_name):
 
         return set(positions)
 
-    raise ValueError(f"Could not find #define {macro_name} in {filename}")
+    raise ValueError(f"Could not find #define {macro_name}")
 
 
 def get_label(key):
-    """Extract the tap/legend label from a parsed key."""
+    """Extract the visible label from a parsed key."""
+
     if isinstance(key, dict):
         if key.get("type") in ("trans", "held"):
             return None
         return key.get("t")
+
     return key
 
 
-# Read physical halves directly from the source keymap.
-LEFT = read_key_positions(keymap_file, "KEYS_L")
-RIGHT = read_key_positions(keymap_file, "KEYS_R")
+def generate_css(base, left, right, layer_config):
+    """Generate layer-specific colors using physical key positions."""
 
-if LEFT & RIGHT:
-    raise ValueError("KEYS_L and KEYS_R contain overlapping positions")
+    rules = []
+
+    # Color secondary legends on the alphanumeric keys.
+    for index in sorted(left | right):
+        side = "left" if index in left else "right"
+
+        for layer_name, config in layer_config.items():
+            if config["side"] != side:
+                continue
+
+            corner = config["corner"]
+            color = config["color"]
+
+            rules.append(
+                f".keypos-{index} text.{corner}, "
+                f".keypos-{index} use.{corner} "
+                f"{{ fill: var(--color-{color}); }}"
+            )
+
+    # Discover layer-toggle thumb keys from their hold labels.
+    for index, key in enumerate(base):
+        if not isinstance(key, dict):
+            continue
+
+        hold_label = key.get("h")
+
+        for layer_name, config in layer_config.items():
+            if hold_label == layer_name:
+                color = config["color"]
+
+                rules.append(
+                    f".keypos-{index} text.hold "
+                    f"{{ fill: var(--color-{color}); }}"
+                )
+
+    return "\n".join(rules) + "\n"
 
 
 # Layer-to-legend configuration.
@@ -95,6 +127,16 @@ LAYER_CONFIG = {
     },
 }
 
+
+# Read physical key positions from the source keymap.
+LEFT = read_key_positions(keymap_file, "KEYS_L")
+RIGHT = read_key_positions(keymap_file, "KEYS_R")
+THUMBS = read_key_positions(keymap_file, "KEYS_T")
+
+if LEFT & RIGHT or LEFT & THUMBS or RIGHT & THUMBS:
+    raise ValueError("Physical key position definitions overlap")
+
+
 # Read generated keymap YAML.
 with open(source, encoding="utf-8") as f:
     data = yaml.safe_load(f)
@@ -102,10 +144,21 @@ with open(source, encoding="utf-8") as f:
 layers = data["layers"]
 base = layers["qwerty"]
 
-if len(base) != 46:
-    raise ValueError(f"Expected 46 base keys, found {len(base)}")
+# Validate that physical position definitions cover the complete layout.
+all_positions = LEFT | RIGHT | THUMBS
+expected_positions = set(range(len(base)))
 
-for layer_name, _ in LEFT_LAYERS + RIGHT_LAYERS:
+if all_positions != expected_positions:
+    missing = sorted(expected_positions - all_positions)
+    invalid = sorted(all_positions - expected_positions)
+
+    raise ValueError(
+        f"Physical key definitions do not match the parsed layout. "
+        f"Missing: {missing}, invalid: {invalid}"
+    )
+
+# Validate configured layers.
+for layer_name in LAYER_CONFIG:
     if layer_name not in layers:
         raise ValueError(f"Missing layer: {layer_name}")
 
@@ -114,36 +167,33 @@ for layer_name, _ in LEFT_LAYERS + RIGHT_LAYERS:
             f"Layer {layer_name} does not contain {len(base)} keys"
         )
 
-for index in LEFT | RIGHT:
-    if index >= len(base):
-        raise ValueError(f"Invalid physical key position: {index}")
-
 
 # Build combined overview.
 combined = []
 
 for index, base_key in enumerate(base):
 
-    # Preserve original QWERTY tap/hold information.
     if isinstance(base_key, dict):
         result = base_key.copy()
     else:
         result = {"t": base_key}
 
     if index in LEFT:
-        secondary_layers = LEFT_LAYERS
+        side = "left"
     elif index in RIGHT:
-        secondary_layers = RIGHT_LAYERS
+        side = "right"
     else:
-        # Leave thumb keys unchanged.
         combined.append(result)
         continue
 
-    for layer_name, corner in secondary_layers:
+    for layer_name, config in LAYER_CONFIG.items():
+        if config["side"] != side:
+            continue
+
         label = get_label(layers[layer_name][index])
 
         if label is not None:
-            result[corner] = label
+            result[config["corner"]] = label
 
     combined.append(result)
 
@@ -165,7 +215,17 @@ with open(destination, "w", encoding="utf-8") as f:
         allow_unicode=True,
     )
 
+
+# Write generated CSS.
+css = generate_css(base, LEFT, RIGHT, LAYER_CONFIG)
+
+with open(css_destination, "w", encoding="utf-8") as f:
+    f.write(css)
+
+
 print(f"Generated combined overview YAML: {destination}")
+print(f"Generated layer color CSS: {css_destination}")
 print(f"Left-hand positions: {len(LEFT)}")
 print(f"Right-hand positions: {len(RIGHT)}")
+print(f"Thumb positions: {len(THUMBS)}")
 
