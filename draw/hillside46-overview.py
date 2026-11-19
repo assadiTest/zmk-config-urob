@@ -6,7 +6,7 @@ import sys
 import yaml
 
 
-source, destination, keymap_file, overview_config_file = sys.argv[1:5]
+source, destination, keymap_file, overview_config_file, css_destination = sys.argv[1:6]
 
 with open(overview_config_file, encoding="utf-8") as f:
     overview_config = yaml.safe_load(f)
@@ -55,34 +55,32 @@ def get_label(key):
     return key
 
 
-def generate_css(base, left, right, layer_config):
+def generate_css(base, layers, left, right, layer_config):
     """Generate layer-specific colors using physical key positions."""
 
     rules = []
 
     # Color secondary legends on the alphanumeric keys.
     for index in sorted(left | right):
-    side = "left" if index in left else "right"
+        side = "left" if index in left else "right"
 
-    for layer_name, config in layer_config.items():
-        if config["side"] != side:
-            continue
+        for layer_name, config in layer_config.items():
+            if config["side"] != side:
+                continue
 
-        corner = config["corner"]
-        color = config["color"]
+            corner = config["corner"]
+            color = config["color"]
 
-        label = get_label(
-            layers[layer_name][index]
-        )
+            label = get_label(layers[layer_name][index])
 
-        if label is None:
-            continue
+            if label is None:
+                continue
 
-        rules.append(
-            f".keypos-{index} text.{corner}, "
-            f".keypos-{index} use.{corner} "
-            f"{{ fill: var(--color-{color}); }}"
-        )
+            rules.append(
+                f".keypos-{index} text.{corner}, "
+                f".keypos-{index} use.{corner} "
+                f"{{ fill: var(--color-{color}); }}"
+            )
 
     # Discover layer-toggle thumb keys from their hold labels.
     for index, key in enumerate(base):
@@ -100,7 +98,19 @@ def generate_css(base, left, right, layer_config):
                     f"{{ fill: var(--color-{color}); }}"
                 )
 
-    return "\n".join(rules) + "\n"
+        palette = """
+svg.keymap {
+    --color-sym: #b16286;
+    --color-num: #d65d0e;
+    --color-fun: #98971a;
+
+    --color-nav: #d79921;
+    --color-mou: #458588;
+    --color-med: #689d6a;
+}
+"""
+
+    return palette + "\n".join(rules) + "\n"
 
 
 # Layer-to-legend configuration.
@@ -216,6 +226,18 @@ if "Combos" in layers:
     output["layers"]["Combos"] = layers["Combos"]
 
 
+# Generate layer-specific CSS.
+css = generate_css(base, layers, LEFT, RIGHT, LAYER_CONFIG)
+
+# Add generated CSS as a drawing override.
+draw_config = output.setdefault("draw_config", {})
+existing_style = draw_config.get("svg_extra_style", "")
+
+draw_config["svg_extra_style"] = (
+    existing_style + "\n" + css
+)
+
+
 # Write overview YAML.
 with open(destination, "w", encoding="utf-8") as f:
     yaml.safe_dump(
@@ -226,9 +248,7 @@ with open(destination, "w", encoding="utf-8") as f:
     )
 
 
-# Write generated CSS.
-css = generate_css(base, LEFT, RIGHT, LAYER_CONFIG)
-
+# Keep standalone CSS for easier debugging.
 with open(css_destination, "w", encoding="utf-8") as f:
     f.write(css)
 
@@ -238,4 +258,3 @@ print(f"Generated layer color CSS: {css_destination}")
 print(f"Left-hand positions: {len(LEFT)}")
 print(f"Right-hand positions: {len(RIGHT)}")
 print(f"Thumb positions: {len(THUMBS)}")
-

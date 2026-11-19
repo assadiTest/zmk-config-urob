@@ -5,6 +5,15 @@ modules
 firmware
 zephyr
 zmk
+zmk-anti-idle
+
+# Generated keymap drawings
+draw/hillside46.yaml
+draw/hillside46-overview.yaml
+draw/hillside46-overview.css
 draw/base.yaml
 draw/overview.yaml
-zmk-anti-idle
+
+# Python cache
+__pycache__/
+*.py[cod]

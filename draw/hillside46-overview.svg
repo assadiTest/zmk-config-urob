@@ -13,97 +13,244 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-medium" viewBox="0 0 24 24"><path d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" /></svg>
 </svg>
 </defs>/* end glyphs */
-<style>svg path { fill: inherit; }
+<style>/* inherit to force styles through use tags */
+svg path {
+    fill: inherit;
+}
 
+/* font and background color specifications */
 svg.keymap {
-    --color-bg:      #7c6f64;
-    --color-key:     #fbf1c7;
-    --color-text:    #3c3836;
-    --color-ghost:   #928374;
-    --color-dendron: #d5c4a1;
-    --color-held:    #bdae93;
-
-    /* Left-hand layers */
-    --color-sym: #b16286;
-    --color-num: #d65d0e;
-    --color-fun: #98971a;
-
-    /* Right-hand layers */
-    --color-nav: #d79921;
-    --color-mou: #458588;
-    --color-med: #689d6a;
-
-    fill: var(--color-text);
-    background-color: var(--color-bg);
-    font-family: Calibri, system-ui, sans-serif;
-    font-size: 16px;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* default key side styling, only used is draw_key_sides is set */
+rect.side {
+    filter: brightness(90%);
+}
+
+/* color accent for combo boxes */
+rect.combo, rect.combo-separate {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    stroke-dasharray: 4, 4;
+    stroke-width: 2;
 }
 
 text {
     text-anchor: middle;
     dominant-baseline: middle;
-    letter-spacing: 0.02em;
 }
 
-text.tap     { font-weight: 500; }
-text.hold    { font-weight: 400; font-size: 13px; }
-text.shifted { font-weight: 400; font-size: 11px; }
-text.combo, text.left, text.right, text.tl, text.tr, text.bl, text.br { font-size: 10px; }
-
-text.hold, text.bl, text.br    { text-anchor: middle; dominant-baseline: auto; }
-text.shifted, text.tl, text.tr { text-anchor: middle; dominant-baseline: hanging; }
-text.left, text.tl, text.bl    { text-anchor: start; }
-text.right, text.tr, text.br   { text-anchor: end; }
-
-text.layer-activator { text-decoration: underline; }
-text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right { font-size: 8px; }
-
-text.label, text.footer {
-    fill: var(--color-key);
-    stroke: var(--color-bg);
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
     stroke-width: 4;
     paint-order: stroke;
 }
-text.label  { font-weight: bold; text-anchor: start; }
-text.footer { text-anchor: end; dominant-baseline: auto; }
 
-rect.key, rect.combo, rect.combo-separate { fill: var(--color-key); stroke-width: 0; }
-rect.held, rect.combo.held                { fill: var(--color-held); }
-.layer-Combos rect.key                    { fill: var(--color-ghost); }
-
-path.combo { stroke: var(--color-dendron); stroke-width: 2; stroke-dasharray: 2, 3; opacity: 0.45; fill: none; }
-
-text.tl, use.tl { fill: var(--color-fn); }
-text.tr, use.tr { fill: var(--color-nav); }
-text.bl, use.bl { fill: var(--color-num); }
-text.br, use.br { fill: var(--color-sys); }
-
-.keypos-30 text.hold { fill: var(--color-nav); }
-.keypos-31 text.hold { fill: var(--color-fn); }
-.keypos-32 text.hold { fill: var(--color-num); font-size: 15px; }
-.keypos-32 text.tap  { fill: var(--color-num); }
-.keypos-33 text.hold { font-size: 15px; }
-
-.icon-tabler > path                             { fill: inherit; stroke: inherit; stroke-width: 2; }
-.icon-tabler > path[stroke="none"][fill="none"] { visibility: hidden; }
-
-@media (prefers-color-scheme: dark) {
-    svg.keymap {
-        --color-bg:      #a89984;
-        --color-key:     #282828;
-        --color-text:    #ebdbb2;
-        --color-ghost:   #928374;
-        --color-dendron: #504945;
-        --color-held:    #665c54;
-
-        --color-fn:      #458588;
-        --color-nav:     #fabd2f;
-        --color-num:     #d65d0e;
-        --color-sys:     #689d6a;
-    }
+/* styling for optional footer */
+text.footer {
+    text-anchor: end;
+    dominant-baseline: auto;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
 }
+
+/* styling for combo tap, and key non-tap label text */
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
+    font-size: 11px;
+}
+
+text.hold, text.bl, text.br {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted, text.tl, text.tr {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+text.left, text.tl, text.bl {
+    text-anchor: start;
+}
+
+text.right, text.tr, text.br {
+    text-anchor: end;
+}
+
+text.layer-activator {
+    text-decoration: underline;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler > path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: 2;
+}
+/* hide tabler's default box */
+.icon-tabler > path[stroke="none"][fill="none"] {
+    visibility: hidden;
+}
+/* End Tabler Icons Cleanup */
+
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
+
+
+svg.keymap {
+    --color-sym: #b16286;
+    --color-num: #d65d0e;
+    --color-fun: #98971a;
+
+    --color-nav: #d79921;
+    --color-mou: #458588;
+    --color-med: #689d6a;
+}
+.keypos-0 text.tl, .keypos-0 use.tl { fill: var(--color-sym); }
+.keypos-0 text.tr, .keypos-0 use.tr { fill: var(--color-num); }
+.keypos-1 text.tl, .keypos-1 use.tl { fill: var(--color-sym); }
+.keypos-1 text.tr, .keypos-1 use.tr { fill: var(--color-num); }
+.keypos-1 text.bl, .keypos-1 use.bl { fill: var(--color-fun); }
+.keypos-2 text.tl, .keypos-2 use.tl { fill: var(--color-sym); }
+.keypos-2 text.tr, .keypos-2 use.tr { fill: var(--color-num); }
+.keypos-2 text.bl, .keypos-2 use.bl { fill: var(--color-fun); }
+.keypos-3 text.tl, .keypos-3 use.tl { fill: var(--color-sym); }
+.keypos-3 text.tr, .keypos-3 use.tr { fill: var(--color-num); }
+.keypos-3 text.bl, .keypos-3 use.bl { fill: var(--color-fun); }
+.keypos-4 text.tl, .keypos-4 use.tl { fill: var(--color-sym); }
+.keypos-4 text.tr, .keypos-4 use.tr { fill: var(--color-num); }
+.keypos-4 text.bl, .keypos-4 use.bl { fill: var(--color-fun); }
+.keypos-5 text.tl, .keypos-5 use.tl { fill: var(--color-sym); }
+.keypos-5 text.tr, .keypos-5 use.tr { fill: var(--color-num); }
+.keypos-5 text.bl, .keypos-5 use.bl { fill: var(--color-fun); }
+.keypos-6 text.tl, .keypos-6 use.tl { fill: var(--color-nav); }
+.keypos-7 text.tl, .keypos-7 use.tl { fill: var(--color-nav); }
+.keypos-8 text.tl, .keypos-8 use.tl { fill: var(--color-nav); }
+.keypos-8 text.bl, .keypos-8 use.bl { fill: var(--color-med); }
+.keypos-9 text.tl, .keypos-9 use.tl { fill: var(--color-nav); }
+.keypos-10 text.tl, .keypos-10 use.tl { fill: var(--color-nav); }
+.keypos-11 text.tr, .keypos-11 use.tr { fill: var(--color-mou); }
+.keypos-12 text.tl, .keypos-12 use.tl { fill: var(--color-sym); }
+.keypos-12 text.tr, .keypos-12 use.tr { fill: var(--color-num); }
+.keypos-13 text.tl, .keypos-13 use.tl { fill: var(--color-sym); }
+.keypos-13 text.tr, .keypos-13 use.tr { fill: var(--color-num); }
+.keypos-13 text.bl, .keypos-13 use.bl { fill: var(--color-fun); }
+.keypos-14 text.tl, .keypos-14 use.tl { fill: var(--color-sym); }
+.keypos-14 text.tr, .keypos-14 use.tr { fill: var(--color-num); }
+.keypos-14 text.bl, .keypos-14 use.bl { fill: var(--color-fun); }
+.keypos-15 text.tl, .keypos-15 use.tl { fill: var(--color-sym); }
+.keypos-15 text.tr, .keypos-15 use.tr { fill: var(--color-num); }
+.keypos-15 text.bl, .keypos-15 use.bl { fill: var(--color-fun); }
+.keypos-16 text.tl, .keypos-16 use.tl { fill: var(--color-sym); }
+.keypos-16 text.tr, .keypos-16 use.tr { fill: var(--color-num); }
+.keypos-16 text.bl, .keypos-16 use.bl { fill: var(--color-fun); }
+.keypos-17 text.tl, .keypos-17 use.tl { fill: var(--color-sym); }
+.keypos-17 text.tr, .keypos-17 use.tr { fill: var(--color-num); }
+.keypos-17 text.bl, .keypos-17 use.bl { fill: var(--color-fun); }
+.keypos-18 text.tl, .keypos-18 use.tl { fill: var(--color-nav); }
+.keypos-18 text.bl, .keypos-18 use.bl { fill: var(--color-med); }
+.keypos-19 text.tl, .keypos-19 use.tl { fill: var(--color-nav); }
+.keypos-19 text.tr, .keypos-19 use.tr { fill: var(--color-mou); }
+.keypos-19 text.bl, .keypos-19 use.bl { fill: var(--color-med); }
+.keypos-20 text.tl, .keypos-20 use.tl { fill: var(--color-nav); }
+.keypos-20 text.tr, .keypos-20 use.tr { fill: var(--color-mou); }
+.keypos-20 text.bl, .keypos-20 use.bl { fill: var(--color-med); }
+.keypos-21 text.tl, .keypos-21 use.tl { fill: var(--color-nav); }
+.keypos-21 text.tr, .keypos-21 use.tr { fill: var(--color-mou); }
+.keypos-21 text.bl, .keypos-21 use.bl { fill: var(--color-med); }
+.keypos-22 text.tl, .keypos-22 use.tl { fill: var(--color-nav); }
+.keypos-22 text.tr, .keypos-22 use.tr { fill: var(--color-mou); }
+.keypos-22 text.bl, .keypos-22 use.bl { fill: var(--color-med); }
+.keypos-24 text.tl, .keypos-24 use.tl { fill: var(--color-sym); }
+.keypos-24 text.tr, .keypos-24 use.tr { fill: var(--color-num); }
+.keypos-25 text.tl, .keypos-25 use.tl { fill: var(--color-sym); }
+.keypos-25 text.tr, .keypos-25 use.tr { fill: var(--color-num); }
+.keypos-25 text.bl, .keypos-25 use.bl { fill: var(--color-fun); }
+.keypos-26 text.tl, .keypos-26 use.tl { fill: var(--color-sym); }
+.keypos-26 text.tr, .keypos-26 use.tr { fill: var(--color-num); }
+.keypos-26 text.bl, .keypos-26 use.bl { fill: var(--color-fun); }
+.keypos-27 text.tl, .keypos-27 use.tl { fill: var(--color-sym); }
+.keypos-27 text.tr, .keypos-27 use.tr { fill: var(--color-num); }
+.keypos-27 text.bl, .keypos-27 use.bl { fill: var(--color-fun); }
+.keypos-28 text.tl, .keypos-28 use.tl { fill: var(--color-sym); }
+.keypos-28 text.tr, .keypos-28 use.tr { fill: var(--color-num); }
+.keypos-28 text.bl, .keypos-28 use.bl { fill: var(--color-fun); }
+.keypos-29 text.tl, .keypos-29 use.tl { fill: var(--color-sym); }
+.keypos-29 text.tr, .keypos-29 use.tr { fill: var(--color-num); }
+.keypos-29 text.bl, .keypos-29 use.bl { fill: var(--color-fun); }
+.keypos-32 text.tl, .keypos-32 use.tl { fill: var(--color-nav); }
+.keypos-32 text.bl, .keypos-32 use.bl { fill: var(--color-med); }
+.keypos-33 text.tl, .keypos-33 use.tl { fill: var(--color-nav); }
+.keypos-33 text.tr, .keypos-33 use.tr { fill: var(--color-mou); }
+.keypos-33 text.bl, .keypos-33 use.bl { fill: var(--color-med); }
+.keypos-34 text.tl, .keypos-34 use.tl { fill: var(--color-nav); }
+.keypos-34 text.tr, .keypos-34 use.tr { fill: var(--color-mou); }
+.keypos-34 text.bl, .keypos-34 use.bl { fill: var(--color-med); }
+.keypos-35 text.tl, .keypos-35 use.tl { fill: var(--color-nav); }
+.keypos-35 text.tr, .keypos-35 use.tr { fill: var(--color-mou); }
+.keypos-35 text.bl, .keypos-35 use.bl { fill: var(--color-med); }
+.keypos-36 text.tl, .keypos-36 use.tl { fill: var(--color-nav); }
+.keypos-36 text.tr, .keypos-36 use.tr { fill: var(--color-mou); }
+.keypos-36 text.bl, .keypos-36 use.bl { fill: var(--color-med); }
+.keypos-37 text.bl, .keypos-37 use.bl { fill: var(--color-med); }
+.keypos-39 text.hold { fill: var(--color-nav); }
+.keypos-40 text.hold { fill: var(--color-mou); }
+.keypos-41 text.hold { fill: var(--color-med); }
+.keypos-42 text.hold { fill: var(--color-sym); }
+.keypos-43 text.hold { fill: var(--color-num); }
+.keypos-44 text.hold { fill: var(--color-fun); }
 </style>
 <g transform="translate(10, 0)" class="layer-qwerty">
 <text x="0" y="5" class="label" id="qwerty">qwerty</text>

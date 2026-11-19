@@ -175,7 +175,7 @@ parse_config:
 
 draw_config:
   append_colon_to_layer_header: false
-  dark_mode: false
+  dark_mode: true
   footer_text: "Hillside46"
   glyph_tap_size: 15
   glyph_hold_size: 12
@@ -189,12 +189,12 @@ draw_config:
     svg path { fill: inherit; }
 
     svg.keymap {
-        --color-bg:      #7c6f64;
-        --color-key:     #fbf1c7;
-        --color-text:    #3c3836;
-        --color-ghost:   #928374;
-        --color-dendron: #d5c4a1;
-        --color-held:    #bdae93;
+        --color-bg:      #282828;
+        --color-key:     #3c3836;
+        --color-text:    #ebdbb2;
+        --color-ghost:   #504945;
+        --color-dendron: #665c54;
+        --color-held:    #504945;
 
         /* Left-hand layers */
         --color-sym: #b16286;
