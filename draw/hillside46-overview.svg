@@ -1,5 +1,23 @@
 <svg width="910" height="639" viewBox="0 0 910 639" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="fa:solid/calculator">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM96 64l192 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L96 160c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm16 168a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm80 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm128-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM88 352a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm128-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm80 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM64 424c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L88 448c-13.3 0-24-10.7-24-24zm232-24c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24z"/></svg>
+</svg>
+<svg id="fa:solid/repeat">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M470.6 118.6c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9S352 19.1 352 32l0 32-160 0C86 64 0 150 0 256 0 273.7 14.3 288 32 288s32-14.3 32-32c0-70.7 57.3-128 128-128l160 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64zM41.4 393.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9S160 492.9 160 480l0-32 160 0c106 0 192-86 192-192 0-17.7-14.3-32-32-32s-32 14.3-32 32c0 70.7-57.3 128-128 128l-160 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64z"/></svg>
+</svg>
+<svg id="mdi:arrow-down-bold-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold-circle-outline" viewBox="0 0 24 24"><path d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-left-bold-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold-circle-outline" viewBox="0 0 24 24"><path d="M7,12L12,7V10H16V14H12V17L7,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12Z" /></svg>
+</svg>
+<svg id="mdi:arrow-right-bold-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold-circle-outline" viewBox="0 0 24 24"><path d="M17,12L12,17V14H8V10H12V7L17,12M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12Z" /></svg>
+</svg>
+<svg id="mdi:arrow-up-bold-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold-circle-outline" viewBox="0 0 24 24"><path d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z" /></svg>
+</svg>
 <svg id="mdi:skip-backward">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-backward" viewBox="0 0 24 24"><path d="M20,5V19L13,12M6,5V19H4V5M13,5V19L6,12" /></svg>
 </svg>
@@ -11,6 +29,9 @@
 </svg>
 <svg id="mdi:volume-medium">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-medium" viewBox="0 0 24 24"><path d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" /></svg>
+</svg>
+<svg id="mdi:volume-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -245,6 +266,19 @@ svg.keymap {
 .keypos-36 text.tr, .keypos-36 use.tr { fill: var(--color-mou); }
 .keypos-36 text.bl, .keypos-36 use.bl { fill: var(--color-med); }
 .keypos-37 text.bl, .keypos-37 use.bl { fill: var(--color-med); }
+.keypos-39 text.br, .keypos-39 use.br { fill: var(--color-num); }
+.keypos-40 text.br, .keypos-40 use.br { fill: var(--color-num); }
+.keypos-41 text.br, .keypos-41 use.br { fill: var(--color-num); }
+.keypos-42 text.tl, .keypos-42 use.tl { fill: var(--color-nav); }
+.keypos-42 text.tr, .keypos-42 use.tr { fill: var(--color-mou); }
+.keypos-42 text.bl, .keypos-42 use.bl { fill: var(--color-med); }
+.keypos-43 text.tl, .keypos-43 use.tl { fill: var(--color-nav); }
+.keypos-43 text.tr, .keypos-43 use.tr { fill: var(--color-mou); }
+.keypos-43 text.bl, .keypos-43 use.bl { fill: var(--color-med); }
+.keypos-44 text.tl, .keypos-44 use.tl { fill: var(--color-nav); }
+.keypos-44 text.tr, .keypos-44 use.tr { fill: var(--color-mou); }
+.keypos-44 text.bl, .keypos-44 use.bl { fill: var(--color-med); }
+.keypos-31 text.bl, .keypos-31 use.bl { fill: var(--color-med); }
 .keypos-39 text.hold { fill: var(--color-nav); }
 .keypos-40 text.hold { fill: var(--color-mou); }
 .keypos-41 text.hold { fill: var(--color-med); }
@@ -258,14 +292,14 @@ svg.keymap {
 <g transform="translate(28, 91)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">`</text>
-<text x="-22" y="-22" class="key tl"><tspan style="font-size: 70%">KP NUMLOCK</tspan></text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 88%">KP COMMA</tspan></text>
+<use href="#fa:solid/calculator" xlink:href="#fa:solid/calculator" x="-22" y="-22" height="10" width="7.5" class="key tl glyph fa:solid/calculator"/>
+<text x="22" y="-22" class="key tr">,</text>
 </g>
 <g transform="translate(84, 80)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">Q</text>
 <text x="-22" y="-22" class="key tl">!</text>
-<text x="22" y="-22" class="key tr">KP PLUS</text>
+<text x="22" y="-22" class="key tr">+</text>
 <text x="-22" y="22" class="key bl">F10</text>
 </g>
 <g transform="translate(146, 45)" class="key keypos-2">
@@ -470,6 +504,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">
 <tspan x="0" dy="-0.6em">Caps</tspan><tspan x="0" dy="1.2em">Word</tspan>
 </text>
+<text x="-22" y="22" class="key bl">BT CLR</text>
 </g>
 <g transform="translate(571, 164)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -481,7 +516,7 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">M</text>
 <text x="-22" y="-22" class="key tl">Ins</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 88%">Scroll ←</tspan></text>
+<use href="#mdi:arrow-left-bold-circle-outline" xlink:href="#mdi:arrow-left-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-left-bold-circle-outline"/>
 <text x="-22" y="22" class="key bl">BT 2</text>
 </g>
 <g transform="translate(683, 140)" class="key keypos-34">
@@ -489,7 +524,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">,</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 64%">Smart Mouse</tspan></text>
 <text x="-22" y="-22" class="key tl">COPY</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 88%">Scroll ↓</tspan></text>
+<use href="#mdi:arrow-down-bold-circle-outline" xlink:href="#mdi:arrow-down-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-down-bold-circle-outline"/>
 <text x="-22" y="22" class="key bl">BT 3</text>
 </g>
 <g transform="translate(739, 157)" class="key keypos-35">
@@ -497,59 +532,71 @@ svg.keymap {
 <text x="0" y="1" class="key tap">.</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 70%">&amp;smart_nav</tspan></text>
 <text x="-22" y="-22" class="key tl">PASTE</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 88%">Scroll ↑</tspan></text>
+<use href="#mdi:arrow-up-bold-circle-outline" xlink:href="#mdi:arrow-up-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-up-bold-circle-outline"/>
 <text x="-22" y="22" class="key bl">BT 4</text>
 </g>
 <g transform="translate(795, 192)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">/</text>
 <text x="-22" y="-22" class="key tl">CUT</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 88%">Scroll →</tspan></text>
+<use href="#mdi:arrow-right-bold-circle-outline" xlink:href="#mdi:arrow-right-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-right-bold-circle-outline"/>
 <text x="-22" y="22" class="key bl">BT 5</text>
 </g>
 <g transform="translate(851, 203)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">&#x27;</text>
 <text x="0" y="22" class="key hold">&quot;</text>
-<text x="-22" y="22" class="key bl"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
+<use href="#fa:solid/repeat" xlink:href="#fa:solid/repeat" x="-22" y="12" height="10" width="10.0" class="key bl glyph fa:solid/repeat"/>
 </g>
 <g transform="translate(235, 212)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
+<use href="#fa:solid/repeat" xlink:href="#fa:solid/repeat" x="-8" y="-6" height="15" width="15.0" class="key tap glyph fa:solid/repeat"/>
 </g>
 <g transform="translate(291, 220)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">ESCAPE</text>
+<text x="0" y="1" class="key tap">Esc</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 70%">Navigation</tspan></text>
+<text x="22" y="22" class="key br">.</text>
 </g>
 <g transform="translate(347, 245)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">Spc</text>
 <text x="0" y="22" class="key hold">Mouse</text>
+<text x="22" y="22" class="key br">0</text>
 </g>
 <g transform="translate(403, 277)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">Tab</text>
 <text x="0" y="22" class="key hold">Media</text>
+<text x="22" y="22" class="key br">-</text>
 </g>
 <g transform="translate(487, 277)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">Enter</text>
 <text x="0" y="22" class="key hold">Symbol</text>
+<text x="-22" y="-22" class="key tl">ENTER</text>
+<text x="22" y="-22" class="key tr"><tspan style="font-size: 64%">Middle Cli…</tspan></text>
+<text x="-22" y="22" class="key bl">STOP</text>
 </g>
 <g transform="translate(543, 245)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 <text x="0" y="22" class="key hold">Number</text>
+<text x="-22" y="-22" class="key tl">Bspc</text>
+<text x="22" y="-22" class="key tr"><tspan style="font-size: 70%">Left Click</tspan></text>
+<text x="-22" y="22" class="key bl"><tspan style="font-size: 70%">PLAY PAUSE</tspan></text>
 </g>
 <g transform="translate(599, 220)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">DELETE</text>
+<text x="0" y="1" class="key tap">Del</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 88%">Function</tspan></text>
+<text x="-22" y="-22" class="key tl">Del</text>
+<text x="22" y="-22" class="key tr"><tspan style="font-size: 64%">Right Click</tspan></text>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-22" y="12" height="10" width="10.0" class="key bl glyph mdi:volume-off"/>
 </g>
 <g transform="translate(655, 212)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
+<use href="#fa:solid/repeat" xlink:href="#fa:solid/repeat" x="-8" y="-6" height="15" width="15.0" class="key tap glyph fa:solid/repeat"/>
 </g>
 </g>
 </g>

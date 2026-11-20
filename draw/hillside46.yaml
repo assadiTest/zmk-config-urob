@@ -39,14 +39,14 @@ layers:
   - {t: ., h: '&smart_nav'}
   - /
   - {t: '''', h: '"'}
-  - '&key_repeat'
-  - {t: ESCAPE, h: Navigation}
+  - $$fa:solid/repeat$$
+  - {t: Esc, h: Navigation}
   - {t: Spc, h: Mouse}
   - {t: Tab, h: Media}
   - {t: Enter, h: Symbol}
   - {t: BACKSPACE, h: Number}
-  - {t: DELETE, h: Function}
-  - '&key_repeat'
+  - {t: Del, h: Function}
+  - $$fa:solid/repeat$$
   Navigation:
   - {type: trans}
   - {type: trans}
@@ -92,7 +92,7 @@ layers:
   - {type: trans}
   - ENTER
   - Bspc
-  - DELETE
+  - Del
   - {type: trans}
   Mouse:
   - {type: trans}
@@ -128,10 +128,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - Scroll ←
-  - Scroll ↓
-  - Scroll ↑
-  - Scroll →
+  - $$mdi:arrow-left-bold-circle-outline$$
+  - $$mdi:arrow-down-bold-circle-outline$$
+  - $$mdi:arrow-up-bold-circle-outline$$
+  - $$mdi:arrow-right-bold-circle-outline$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -179,7 +179,7 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - '&key_repeat'
+  - $$fa:solid/repeat$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -189,7 +189,7 @@ layers:
   - $$mdi:volume-off$$
   - {type: trans}
   Symbol:
-  - KP NUMLOCK
+  - $$fa:solid/calculator$$
   - '!'
   - $
   - '&'
@@ -236,8 +236,8 @@ layers:
   - {type: trans}
   - {type: trans}
   Number:
-  - KP COMMA
-  - KP PLUS
+  - ','
+  - +
   - '7'
   - '4'
   - '1'

@@ -95,6 +95,19 @@ svg.keymap {
 .keypos-36 text.tr, .keypos-36 use.tr { fill: var(--color-mou); }
 .keypos-36 text.bl, .keypos-36 use.bl { fill: var(--color-med); }
 .keypos-37 text.bl, .keypos-37 use.bl { fill: var(--color-med); }
+.keypos-39 text.br, .keypos-39 use.br { fill: var(--color-num); }
+.keypos-40 text.br, .keypos-40 use.br { fill: var(--color-num); }
+.keypos-41 text.br, .keypos-41 use.br { fill: var(--color-num); }
+.keypos-42 text.tl, .keypos-42 use.tl { fill: var(--color-nav); }
+.keypos-42 text.tr, .keypos-42 use.tr { fill: var(--color-mou); }
+.keypos-42 text.bl, .keypos-42 use.bl { fill: var(--color-med); }
+.keypos-43 text.tl, .keypos-43 use.tl { fill: var(--color-nav); }
+.keypos-43 text.tr, .keypos-43 use.tr { fill: var(--color-mou); }
+.keypos-43 text.bl, .keypos-43 use.bl { fill: var(--color-med); }
+.keypos-44 text.tl, .keypos-44 use.tl { fill: var(--color-nav); }
+.keypos-44 text.tr, .keypos-44 use.tr { fill: var(--color-mou); }
+.keypos-44 text.bl, .keypos-44 use.bl { fill: var(--color-med); }
+.keypos-31 text.bl, .keypos-31 use.bl { fill: var(--color-med); }
 .keypos-39 text.hold { fill: var(--color-nav); }
 .keypos-40 text.hold { fill: var(--color-mou); }
 .keypos-41 text.hold { fill: var(--color-med); }

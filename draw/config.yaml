@@ -47,16 +47,18 @@ parse_config:
     "&mmv MOVE_LEFT": Mouse ←
     "&mmv MOVE_RIGHT": Mouse →
 
-    "&msc SCRL_UP": Scroll ↑
-    "&msc SCRL_DOWN": Scroll ↓
-    "&msc SCRL_LEFT": Scroll ←
-    "&msc SCRL_RIGHT": Scroll →
+    "&msc SCRL_UP": $$mdi:arrow-up-bold-circle-outline$$
+    "&msc SCRL_DOWN": $$mdi:arrow-down-bold-circle-outline$$
+    "&msc SCRL_LEFT": $$mdi:arrow-left-bold-circle-outline$$
+    "&msc SCRL_RIGHT": $$mdi:arrow-right-bold-circle-outline$$
 
     "&mkp LCLK": Left Click
     "&mkp RCLK": Right Click
     "&mkp MCLK": Middle Click
     "&mkp MB4": Back Click
     "&mkp MB5": Forward Click
+
+    "&key_repeat": $$fa:solid/repeat$$
 
   trans_legend: { "t": "", "type": "trans" }
 
@@ -82,7 +84,9 @@ parse_config:
 
     BSPC: Bspc
     DEL: Del
+    DELETE: Del
     ESC: Esc
+    ESCAPE: Esc
     RET: Enter
     SPACE: Spc
     TAB: Tab
@@ -106,6 +110,14 @@ parse_config:
     C_VOL_DN: $$mdi:volume-medium$$
     C_NEXT: $$mdi:skip-forward$$
     C_PREV: $$mdi:skip-backward$$
+
+    KP_NUMLOCK: $$fa:solid/calculator$$
+    KP_COMMA: ","
+    KP_PLUS: "+"
+    KP_MINUS: "-"
+    KP_MULTIPLY: "*"
+    KP_DIVIDE: "/"
+    KP_EQUAL: "="
 
     # defaults
     AMPERSAND: "&"

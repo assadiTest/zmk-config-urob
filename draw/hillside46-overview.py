@@ -55,7 +55,7 @@ def get_label(key):
     return key
 
 
-def generate_css(base, layers, left, right, layer_config):
+def generate_css(base, layers, left, right, thumbs, layer_config):
     """Generate layer-specific colors using physical key positions."""
 
     rules = []
@@ -82,6 +82,23 @@ def generate_css(base, layers, left, right, layer_config):
                 f"{{ fill: var(--color-{color}); }}"
             )
 
+    # Color secondary legends on thumb keys.
+    for index in THUMBS:
+        for layer_name, config in THUMB_LAYER_CONFIG.items():
+            label = get_label(layers[layer_name][index])
+
+            if label is None:
+                continue
+
+            corner = config["corner"]
+            color = config["color"]
+
+            rules.append(
+                f".keypos-{index} text.{corner}, "
+                f".keypos-{index} use.{corner} "
+                f"{{ fill: var(--color-{color}); }}"
+            )
+    
     # Discover layer-toggle thumb keys from their hold labels.
     for index, key in enumerate(base):
         if not isinstance(key, dict):
@@ -147,6 +164,15 @@ LAYER_CONFIG = {
     },
 }
 
+THUMB_LAYER_CONFIG = {
+    "Navigation": {"corner": "tl", "color": "nav"},
+    "Mouse":      {"corner": "tr", "color": "mou"},
+    "Media":      {"corner": "bl", "color": "med"},
+    "Symbol":     {"corner": "br", "color": "sym"},
+    "Number":     {"corner": "br", "color": "num"},
+    "Function":   {"corner": "br", "color": "fun"},
+}
+
 
 # Read physical key positions from the source keymap.
 LEFT = read_key_positions(keymap_file, "KEYS_L")
@@ -202,6 +228,16 @@ for index, base_key in enumerate(base):
     else:
         result = {"t": base_key}
 
+    if index in THUMBS:
+        for layer_name, config in THUMB_LAYER_CONFIG.items():
+            label = get_label(layers[layer_name][index])
+
+            if label is not None:
+                result[config["corner"]] = label
+
+        combined.append(result)
+        continue
+
     if index in LEFT:
         side = "left"
     elif index in RIGHT:
@@ -231,7 +267,7 @@ if "Combos" in layers:
 
 
 # Generate layer-specific CSS.
-css = generate_css(base, layers, LEFT, RIGHT, LAYER_CONFIG)
+css = generate_css(base, layers, LEFT, RIGHT, THUMBS, LAYER_CONFIG)
 
 # Add generated CSS as a drawing override.
 draw_config = output.setdefault("draw_config", {})
