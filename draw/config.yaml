@@ -32,7 +32,6 @@ parse_config:
     "&dot_spc": Sentence
     "&num_dance": { "t": "Smart"}
     "&magic_shift": { "t": Magic, "h": "Shift" }
-    "&smart_mouse": Smart Mouse
 
     "&hml LS(LALT)TAB": Tab
     "&hm_combo_ldr": Leader
@@ -42,16 +41,19 @@ parse_config:
     "&kp LBKT": { "t": "{ ["}
     "&kp RBKT": { "t": "} ]"}
 
-    "&mmv MOVE_UP": Mouse ↑
-    "&mmv MOVE_DOWN": Mouse ↓
-    "&mmv MOVE_LEFT": Mouse ←
-    "&mmv MOVE_RIGHT": Mouse →
+    "&mmv MOVE_UP": "__COMPOSITE_mmv_move_up__"
+    "&mmv MOVE_DOWN": "__COMPOSITE_mmv_move_down__"
+    "&mmv MOVE_LEFT": "__COMPOSITE_mmv_move_left__"
+    "&mmv MOVE_RIGHT": "__COMPOSITE_mmv_move_right__"
 
-    "&msc SCRL_UP": $$mdi:arrow-up-bold-circle-outline$$
-    "&msc SCRL_DOWN": $$mdi:arrow-down-bold-circle-outline$$
-    "&msc SCRL_LEFT": $$mdi:arrow-left-bold-circle-outline$$
-    "&msc SCRL_RIGHT": $$mdi:arrow-right-bold-circle-outline$$
+    "&msc SCRL_UP": "__COMPOSITE_msc_scrl_up__"
+    "&msc SCRL_DOWN": "__COMPOSITE_msc_scrl_down__"
+    "&msc SCRL_LEFT": "__COMPOSITE_msc_scrl_left__"
+    "&msc SCRL_RIGHT": "__COMPOSITE_msc_scrl_right__" 
 
+    "&smart_mouse": "__COMPOSITE_smart_mouse__"
+    "&smart_nav": "$$material:drag_pan$$"
+    
     "&mkp LCLK": Left Click
     "&mkp RCLK": Right Click
     "&mkp MCLK": Middle Click

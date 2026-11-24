@@ -35,8 +35,8 @@ layers:
   - Caps Word
   - N
   - M
-  - {t: ',', h: Smart Mouse}
-  - {t: ., h: '&smart_nav'}
+  - {t: ',', h: __COMPOSITE_smart_mouse__}
+  - {t: ., h: '$$material:drag_pan$$'}
   - /
   - {t: '''', h: '"'}
   - $$fa:solid/repeat$$
@@ -106,7 +106,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: qwerty, h: toggle}
+  - {type: trans}
   - {type: trans}
   - Gui
   - Alt
@@ -114,10 +114,10 @@ layers:
   - Shift
   - {type: trans}
   - {type: trans}
-  - Mouse ←
-  - Mouse ↓
-  - Mouse ↑
-  - Mouse →
+  - __COMPOSITE_mmv_move_left__
+  - __COMPOSITE_mmv_move_down__
+  - __COMPOSITE_mmv_move_up__
+  - __COMPOSITE_mmv_move_right__
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -128,10 +128,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - $$mdi:arrow-left-bold-circle-outline$$
-  - $$mdi:arrow-down-bold-circle-outline$$
-  - $$mdi:arrow-up-bold-circle-outline$$
-  - $$mdi:arrow-right-bold-circle-outline$$
+  - __COMPOSITE_msc_scrl_left__
+  - __COMPOSITE_msc_scrl_down__
+  - __COMPOSITE_msc_scrl_up__
+  - __COMPOSITE_msc_scrl_right__
   - {type: trans}
   - {type: trans}
   - {type: trans}

@@ -1,22 +1,40 @@
 <svg width="910" height="639" viewBox="0 0 910 639" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="composite_mmv_MOVE_DOWN_937ab555">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_mmv_MOVE_LEFT_8c9bf16b">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_mmv_MOVE_RIGHT_4c1663c6">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_mmv_MOVE_UP_39d0838b">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 13.6" color="inherit"><g transform="scale(0.8)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" /></svg><svg x="19" y="1" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_DOWN_2ebd2772">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 11.1071" color="inherit"><g transform="scale(0.6534)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" /></svg><text x="36.55" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="9" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="35.1" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_LEFT_f91377ad">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.2 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M7,12L12,7V10H16V14H12V17L7,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12Z" /></svg><text x="33.6" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="8" font-weight="normal" font-family="inherit" letter-spacing="0" textLength="31.2" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_RIGHT_c32642b1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.2 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M17,12L12,17V14H8V10H12V7L17,12M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12Z" /></svg><text x="33.6" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="8" font-weight="normal" font-family="inherit" letter-spacing="0" textLength="31.2" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_UP_716f2faf">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.2 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z" /></svg><text x="33.6" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="8" font-weight="normal" font-family="inherit" letter-spacing="0" textLength="31.2" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_smart_mouse_1362bede">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.7669 24" color="inherit"><g transform="scale(0.7218)" color="inherit"><svg x="4.5" y="1" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M482-120q-96 0-165-62t-77-154q-68-17-114-67T80-522q0-81 60-134.5T282-710h106q14 0 23-10.5t9-24.5q0-14-9-24.5T388-780h-65q-14.02 0-23.51-8.68-9.49-8.67-9.49-21.5 0-12.82 9.5-21.32T322-840h63q39 0 67 28t28 67.5q0 39.5-27.84 67T384-650H278q-57.5 0-97.75 37.5T140-519.94Q140-475 169.5-442t72.5 46q13-88 79.1-146T475-600q21.36 0 42.18 3t37.82 9q8-3 15.98-5.29 7.99-2.28 16.5-4Q596-599 604-599.5t17.11-.5q73.89 0 126.39 51.5T800-423v12q0 7-2 15l36 35q22 21 33.5 46.5t11.5 54.67q0 58.35-40 99.09T741-120H482Zm0-60h257q32 0 56.5-24t24.5-56q0-16.34-7-30.17Q806-304 792-318l-59-58q4-12 5.5-23.5T740-422q0-49-34.51-83.5T621-540q-46 0-78.5 33.35T510-425q0 21.05 6 40.53Q522-365 535-349l-42 42q-23-24-33-55.4T450-427q0-31.27 10-60.14Q470-516 490-539q-8-2-13.5-1.5t-10.5.5q-67 0-117.5 55T298-357q0 35.87 14.5 67.93Q327-257 352.45-232.65q25.45 24.34 59 38.5Q445-180 482-180Zm198-70q-12 0-21-9t-9-21.5q0-12.5 9-21t21.5-8.5q12.5 0 21 8.62 8.5 8.63 8.5 21.38 0 12-8.62 21-8.63 9-21.38 9ZM559-390Z" /></svg><text x="13" y="26.625" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="9" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="24" lengthAdjust="spacingAndGlyphs">SMART</text></g></svg>
+</svg>
 <svg id="fa:solid/calculator">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM96 64l192 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L96 160c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm16 168a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm80 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm128-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM88 352a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm128-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm80 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM64 424c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L88 448c-13.3 0-24-10.7-24-24zm232-24c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24z"/></svg>
 </svg>
 <svg id="fa:solid/repeat">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M470.6 118.6c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9S352 19.1 352 32l0 32-160 0C86 64 0 150 0 256 0 273.7 14.3 288 32 288s32-14.3 32-32c0-70.7 57.3-128 128-128l160 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64zM41.4 393.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9S160 492.9 160 480l0-32 160 0c106 0 192-86 192-192 0-17.7-14.3-32-32-32s-32 14.3-32 32c0 70.7-57.3 128-128 128l-160 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64z"/></svg>
 </svg>
-<svg id="mdi:arrow-down-bold-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold-circle-outline" viewBox="0 0 24 24"><path d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" /></svg>
-</svg>
-<svg id="mdi:arrow-left-bold-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold-circle-outline" viewBox="0 0 24 24"><path d="M7,12L12,7V10H16V14H12V17L7,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12Z" /></svg>
-</svg>
-<svg id="mdi:arrow-right-bold-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold-circle-outline" viewBox="0 0 24 24"><path d="M17,12L12,17V14H8V10H12V7L17,12M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12Z" /></svg>
-</svg>
-<svg id="mdi:arrow-up-bold-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold-circle-outline" viewBox="0 0 24 24"><path d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z" /></svg>
+<svg id="material:drag_pan">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80 317-243l44-44 89 89v-252H198l84 84-44 44L80-480l159-159 44 44-85 85h252v-252l-84 84-44-44 158-158 158 158-44 44-84-84v252h252l-84-84 44-44 158 158-158 158-44-44 84-84H510v252l89-89 44 44L480-80Z"/></svg>
 </svg>
 <svg id="mdi:skip-backward">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-backward" viewBox="0 0 24 24"><path d="M20,5V19L13,12M6,5V19H4V5M13,5V19L6,12" /></svg>
@@ -202,7 +220,6 @@ svg.keymap {
 .keypos-8 text.bl, .keypos-8 use.bl { fill: var(--color-med); }
 .keypos-9 text.tl, .keypos-9 use.tl { fill: var(--color-nav); }
 .keypos-10 text.tl, .keypos-10 use.tl { fill: var(--color-nav); }
-.keypos-11 text.tr, .keypos-11 use.tr { fill: var(--color-mou); }
 .keypos-12 text.tl, .keypos-12 use.tl { fill: var(--color-sym); }
 .keypos-12 text.tr, .keypos-12 use.tr { fill: var(--color-num); }
 .keypos-13 text.tl, .keypos-13 use.tl { fill: var(--color-sym); }
@@ -361,9 +378,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">
 <tspan x="0" dy="-0.6em">&amp;aim</tspan><tspan x="0" dy="1.2em">AIM_TOG</tspan>
 </text>
-<a href="#qwerty">
-<text x="22" y="-22" class="key tr layer-activator">qwerty</text>
-</a></g>
+</g>
 <g transform="translate(34, 147)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">!</text>
@@ -421,7 +436,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">J</text>
 <text x="0" y="22" class="key hold">Shift</text>
 <text x="-22" y="-22" class="key tl">←</text>
-<text x="22" y="-22" class="key tr">Mouse ←</text>
+<use href="#composite_mmv_MOVE_LEFT_8c9bf16b" xlink:href="#composite_mmv_MOVE_LEFT_8c9bf16b" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_mmv_MOVE_LEFT_8c9bf16b"/>
 <use href="#mdi:skip-backward" xlink:href="#mdi:skip-backward" x="-22" y="12" height="10" width="10.0" class="key bl glyph mdi:skip-backward"/>
 </g>
 <g transform="translate(683, 84)" class="key keypos-20">
@@ -429,7 +444,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">K</text>
 <text x="0" y="22" class="key hold">Ctrl</text>
 <text x="-22" y="-22" class="key tl">↓</text>
-<text x="22" y="-22" class="key tr">Mouse ↓</text>
+<use href="#composite_mmv_MOVE_DOWN_937ab555" xlink:href="#composite_mmv_MOVE_DOWN_937ab555" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_mmv_MOVE_DOWN_937ab555"/>
 <use href="#mdi:volume-medium" xlink:href="#mdi:volume-medium" x="-22" y="12" height="10" width="10.0" class="key bl glyph mdi:volume-medium"/>
 </g>
 <g transform="translate(742, 101)" class="key keypos-21">
@@ -437,7 +452,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">L</text>
 <text x="0" y="22" class="key hold">Alt</text>
 <text x="-22" y="-22" class="key tl">↑</text>
-<text x="22" y="-22" class="key tr">Mouse ↑</text>
+<use href="#composite_mmv_MOVE_UP_39d0838b" xlink:href="#composite_mmv_MOVE_UP_39d0838b" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_mmv_MOVE_UP_39d0838b"/>
 <use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-22" y="12" height="10" width="10.0" class="key bl glyph mdi:volume-high"/>
 </g>
 <g transform="translate(801, 136)" class="key keypos-22">
@@ -445,7 +460,7 @@ svg.keymap {
 <text x="0" y="1" class="key tap">;</text>
 <text x="0" y="22" class="key hold">Gui</text>
 <text x="-22" y="-22" class="key tl">→</text>
-<text x="22" y="-22" class="key tr">Mouse →</text>
+<use href="#composite_mmv_MOVE_RIGHT_4c1663c6" xlink:href="#composite_mmv_MOVE_RIGHT_4c1663c6" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_mmv_MOVE_RIGHT_4c1663c6"/>
 <use href="#mdi:skip-forward" xlink:href="#mdi:skip-forward" x="-22" y="12" height="10" width="10.0" class="key bl glyph mdi:skip-forward"/>
 </g>
 <g transform="translate(857, 147)" class="key keypos-23">
@@ -516,30 +531,30 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">M</text>
 <text x="-22" y="-22" class="key tl">Ins</text>
-<use href="#mdi:arrow-left-bold-circle-outline" xlink:href="#mdi:arrow-left-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-left-bold-circle-outline"/>
+<use href="#composite_msc_SCRL_LEFT_f91377ad" xlink:href="#composite_msc_SCRL_LEFT_f91377ad" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_msc_SCRL_LEFT_f91377ad"/>
 <text x="-22" y="22" class="key bl">BT 2</text>
 </g>
 <g transform="translate(683, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">,</text>
-<text x="0" y="22" class="key hold"><tspan style="font-size: 64%">Smart Mouse</tspan></text>
+<use href="#composite_smart_mouse_1362bede" xlink:href="#composite_smart_mouse_1362bede" x="-6" y="10" height="12" width="12.0" class="key hold glyph composite_smart_mouse_1362bede"/>
 <text x="-22" y="-22" class="key tl">COPY</text>
-<use href="#mdi:arrow-down-bold-circle-outline" xlink:href="#mdi:arrow-down-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-down-bold-circle-outline"/>
+<use href="#composite_msc_SCRL_DOWN_2ebd2772" xlink:href="#composite_msc_SCRL_DOWN_2ebd2772" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_msc_SCRL_DOWN_2ebd2772"/>
 <text x="-22" y="22" class="key bl">BT 3</text>
 </g>
 <g transform="translate(739, 157)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">.</text>
-<text x="0" y="22" class="key hold"><tspan style="font-size: 70%">&amp;smart_nav</tspan></text>
+<use href="#material:drag_pan" xlink:href="#material:drag_pan" x="-6" y="10" height="12" width="12.0" class="key hold glyph material:drag_pan"/>
 <text x="-22" y="-22" class="key tl">PASTE</text>
-<use href="#mdi:arrow-up-bold-circle-outline" xlink:href="#mdi:arrow-up-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-up-bold-circle-outline"/>
+<use href="#composite_msc_SCRL_UP_716f2faf" xlink:href="#composite_msc_SCRL_UP_716f2faf" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_msc_SCRL_UP_716f2faf"/>
 <text x="-22" y="22" class="key bl">BT 4</text>
 </g>
 <g transform="translate(795, 192)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">/</text>
 <text x="-22" y="-22" class="key tl">CUT</text>
-<use href="#mdi:arrow-right-bold-circle-outline" xlink:href="#mdi:arrow-right-bold-circle-outline" x="12" y="-22" height="10" width="10.0" class="key tr glyph mdi:arrow-right-bold-circle-outline"/>
+<use href="#composite_msc_SCRL_RIGHT_c32642b1" xlink:href="#composite_msc_SCRL_RIGHT_c32642b1" x="12" y="-22" height="10" width="10.0" class="key tr glyph composite_msc_SCRL_RIGHT_c32642b1"/>
 <text x="-22" y="22" class="key bl">BT 5</text>
 </g>
 <g transform="translate(851, 203)" class="key keypos-37">

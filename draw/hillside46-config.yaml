@@ -1,3 +1,4 @@
+
 base_layer: qwerty
 
 hands:
@@ -20,3 +21,156 @@ legends:
       corner: tr
     - layer: Med
       corner: bl
+
+composite_legends:
+  "&smart_mouse":
+    marker: "__COMPOSITE_smart_mouse__"
+    layout:
+      direction: vertical
+      cross_align: center
+      gap: 3
+      padding: 1
+      max_width: 24
+      max_height: 24
+    elements:
+      - type: glyph
+        source: material
+        name: pest_control_rodent
+        size: 17
+      - type: text
+        value: SMART
+        size: 9
+        weight: bold
+        width: 24
+ 
+  "&mmv MOVE_UP":
+    marker: "__COMPOSITE_mmv_move_up__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 3
+      padding: 1
+      max_width: 28
+      max_height: 18
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-up
+        size: 15
+      - type: glyph
+        source: material
+        name: mouse
+        size: 15
+
+  "&mmv MOVE_DOWN":
+    marker: "__COMPOSITE_mmv_move_down__"
+    layout:
+      direction: horizontal
+      alignment: center
+      spacing: 3
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-down
+        size: 15
+      - type: glyph
+        source: material
+        name: mouse
+        size: 13
+
+  "&mmv MOVE_LEFT":
+    marker: "__COMPOSITE_mmv_move_left__"
+    layout:
+      direction: horizontal
+      alignment: center
+      spacing: 3
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-left
+        size: 15
+      - type: glyph
+        source: material
+        name: mouse
+        size: 13
+
+  "&mmv MOVE_RIGHT":
+    marker: "__COMPOSITE_mmv_move_right__"
+    layout:
+      direction: horizontal
+      alignment: center
+      spacing: 3
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-right
+        size: 15
+      - type: glyph
+        source: material
+        name: mouse
+        size: 13
+
+  "&msc SCRL_UP":
+    marker: "__COMPOSITE_msc_scrl_up__"
+    layout:
+      direction: horizontal
+      alignment: center
+      spacing: 2
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-up-bold-circle-outline
+        size: 15
+      - type: text
+        value: SCROLL
+        size: 8
+
+  "&msc SCRL_DOWN":
+    marker: "__COMPOSITE_msc_scrl_down__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 3
+      padding: 1
+      max_width: 36
+      max_height: 18
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-down-bold-circle-outline
+        size: 15
+      - type: text
+        value: SCROLL
+        size: 9
+        weight: bold
+
+  "&msc SCRL_LEFT":
+    marker: "__COMPOSITE_msc_scrl_left__"
+    layout:
+      direction: horizontal
+      alignment: center
+      spacing: 2
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-left-bold-circle-outline
+        size: 15
+      - type: text
+        value: SCROLL
+        size: 8
+
+  "&msc SCRL_RIGHT":
+    marker: "__COMPOSITE_msc_scrl_right__"
+    layout:
+      direction: horizontal
+      alignment: center
+      spacing: 2
+    elements:
+      - type: glyph
+        source: mdi
+        name: arrow-right-bold-circle-outline
+        size: 15
+      - type: text
+        value: SCROLL
+        size: 8
+

@@ -31,7 +31,6 @@ svg.keymap {
 .keypos-8 text.bl, .keypos-8 use.bl { fill: var(--color-med); }
 .keypos-9 text.tl, .keypos-9 use.tl { fill: var(--color-nav); }
 .keypos-10 text.tl, .keypos-10 use.tl { fill: var(--color-nav); }
-.keypos-11 text.tr, .keypos-11 use.tr { fill: var(--color-mou); }
 .keypos-12 text.tl, .keypos-12 use.tl { fill: var(--color-sym); }
 .keypos-12 text.tr, .keypos-12 use.tr { fill: var(--color-num); }
 .keypos-13 text.tl, .keypos-13 use.tl { fill: var(--color-sym); }

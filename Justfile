@@ -130,7 +130,8 @@ draw-hillside46:
         "{{ draw }}/hillside46-overview.yaml" \
         "{{ config }}/hillside46.keymap" \
         "{{ draw }}/hillside46-config.yaml" \
-        "{{ draw }}/hillside46-overview.css"
+        "{{ draw }}/hillside46-overview.css" \
+        "{{ draw }}/config.yaml"
 
     keymap -c "{{ draw }}/config.yaml" draw \
         "{{ draw }}/hillside46-overview.yaml" \
