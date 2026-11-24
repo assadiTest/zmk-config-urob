@@ -38,7 +38,10 @@ DEFAULT_GLYPH_URLS = {
     "mdil": "https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg",
     "material": "https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg",
     "tabler": "https://unpkg.com/@tabler/icons/icons/outline/{}.svg",
-    "phosphor": "https://unpkg.com/@phosphor-icons/core/assets/{}.svg",
+    "phosphor": (
+        "https://unpkg.com/@phosphor-icons/core@2.1.1/"
+        "assets/{}.svg"
+    ),
     "fa": "https://unpkg.com/@fortawesome/fontawesome-free/svgs/{}.svg",
 }
 
