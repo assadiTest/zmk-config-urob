@@ -113,7 +113,7 @@ parse_config:
     C_NEXT: $$mdi:skip-forward$$
     C_PREV: $$mdi:skip-backward$$
 
-    KP_NUMLOCK: $$fa:solid/calculator$$
+    KP_NUMLOCK: $$ph:ph-calculator$$
     KP_COMMA: ","
     KP_PLUS: "+"
     KP_MINUS: "-"

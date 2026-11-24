@@ -13,6 +13,7 @@ draw/hillside46-overview.yaml
 draw/hillside46-overview.css
 draw/base.yaml
 draw/overview.yaml
+draw/.glyph-cache
 
 # Python cache
 __pycache__/

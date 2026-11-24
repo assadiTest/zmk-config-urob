@@ -1,26 +1,54 @@
+version: 1
 
 base_layer: qwerty
 
 hands:
   left: KEYS_L
   right: KEYS_R
+  thumbs: KEYS_T
 
 legends:
   left:
-    - layer: Sym
+    - layer: Symbol
       corner: tl
-    - layer: Num
+      color: sym
+    - layer: Number
       corner: tr
-    - layer: Fun
+      color: num
+    - layer: Function
       corner: bl
+      color: fun
 
   right:
-    - layer: Nav
+    - layer: Navigation
       corner: tl
-    - layer: Mou
+      color: nav
+    - layer: Mouse
       corner: tr
-    - layer: Med
+      color: mou
+    - layer: Media
       corner: bl
+      color: med
+
+  thumbs:
+    - layer: Navigation
+      corner: tl
+      color: nav
+    - layer: Mouse
+      corner: tr
+      color: mou
+    - layer: Media
+      corner: bl
+      color: med
+    - layer: Symbol
+      corner: br
+      color: sym
+    - layer: Number
+      corner: br
+      color: num
+    - layer: Function
+      corner: br
+      color: fun
 
 composite_legends:
   "&smart_mouse":

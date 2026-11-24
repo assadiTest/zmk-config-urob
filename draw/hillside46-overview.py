@@ -482,8 +482,6 @@ def register_composite_glyphs(data, overview_config, draw_config_file):
 
     urls = load_glyph_urls(draw_config_file)
 
-    cache_dir = Path(destination).parent / ".glyph-cache"
-
     marker_to_glyph = {}
     generated_glyphs = {}
 
@@ -614,7 +612,15 @@ def get_label(key):
     return key
 
 
-def generate_css(base, layers, left, right, thumbs, layer_config):
+def generate_css(
+    base,
+    layers,
+    left,
+    right,
+    thumbs,
+    layer_config,
+    thumb_layer_config,
+):
     """Generate layer-specific colors using physical key positions."""
 
     rules = []
@@ -674,63 +680,55 @@ def generate_css(base, layers, left, right, thumbs, layer_config):
                     f"{{ fill: var(--color-{color}); }}"
                 )
 
-        palette = """
-svg.keymap {
-    --color-sym: #b16286;
-    --color-num: #d65d0e;
-    --color-fun: #98971a;
-
-    --color-nav: #d79921;
-    --color-mou: #458588;
-    --color-med: #689d6a;
-}
-"""
+        def generate_palette(colors):
+            return (
+                "svg.keymap {\n"
+                + "\n".join(
+                    f"    --color-{name}: {value};"
+                    for name, value in colors.items()
+                )
+                + "\n}\n"
+            )
 
     return palette + "\n".join(rules) + "\n"
 
 
 # Layer-to-legend configuration.
-LAYER_CONFIG = {
-    "Symbol": {
-        "side": "left",
-        "corner": "tl",
-        "color": "sym",
-    },
-    "Number": {
-        "side": "left",
-        "corner": "tr",
-        "color": "num",
-    },
-    "Function": {
-        "side": "left",
-        "corner": "bl",
-        "color": "fun",
-    },
-    "Navigation": {
-        "side": "right",
-        "corner": "tl",
-        "color": "nav",
-    },
-    "Mouse": {
-        "side": "right",
-        "corner": "tr",
-        "color": "mou",
-    },
-    "Media": {
-        "side": "right",
-        "corner": "bl",
-        "color": "med",
-    },
-}
+def build_layer_config(config):
+    result = {}
 
-THUMB_LAYER_CONFIG = {
-    "Navigation": {"corner": "tl", "color": "nav"},
-    "Mouse":      {"corner": "tr", "color": "mou"},
-    "Media":      {"corner": "bl", "color": "med"},
-    "Symbol":     {"corner": "br", "color": "sym"},
-    "Number":     {"corner": "br", "color": "num"},
-    "Function":   {"corner": "br", "color": "fun"},
-}
+    for side in ("left", "right"):
+        for legend in config["legends"].get(side, []):
+            layer = legend["layer"]
+
+            if layer in result:
+                raise ValueError(
+                    f"Layer configured more than once: {layer}"
+                )
+
+            corner = legend["corner"]
+            if corner not in ("tl", "tr", "bl", "br"):
+                raise ValueError(
+                    f"Invalid corner for {layer}: {corner}"
+                )
+
+            result[layer] = {
+                "side": side,
+                "corner": corner,
+                "color": legend["color"],
+            }
+
+    return result
+
+
+def build_thumb_config(config):
+    return {
+        item["layer"]: {
+            "corner": item["corner"],
+            "color": item["color"],
+        }
+        for item in config["legends"].get("thumbs", [])
+    }
 
 
 # Read physical key positions from the source keymap.
@@ -747,11 +745,12 @@ with open(source, encoding="utf-8") as f:
     data = yaml.safe_load(f)
 
 # Generate composite SVG glyphs and replace their markers.
-register_composite_glyphs(
+def register_composite_glyphs(
     data,
     overview_config,
     draw_config_file,
-)
+    cache_dir,
+):
 
 # Move all combos to the dedicated virtual layer.
 for combo in data.get("combos", []):
