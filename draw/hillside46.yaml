@@ -15,9 +15,9 @@ layers:
   - '&aim AIM_TOG'
   - {t: '!', h: '|'}
   - {t: A, h: Gui}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LSHIFT}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
+  - {t: F, h: Shift}
   - G
   - H
   - {t: J, h: Shift}
@@ -40,12 +40,12 @@ layers:
   - /
   - {t: '''', h: '"'}
   - $$fa:solid/repeat$$
-  - {t: Esc, h: Navigation}
-  - {t: Spc, h: Mouse}
-  - {t: Tab, h: Media}
-  - {t: Enter, h: Symbol}
-  - {t: BACKSPACE, h: Number}
-  - {t: Del, h: Function}
+  - {t: ⎋, h: Navigation}
+  - {t: ⌴, h: Mouse}
+  - {t: ↹, h: Media}
+  - {t: ⮐, h: Symbol}
+  - {t: ⌫, h: Number}
+  - {t: ⌦, h: Function}
   - $$fa:solid/repeat$$
   Navigation:
   - {type: trans}
@@ -91,8 +91,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - ENTER
-  - Bspc
-  - Del
+  - ⌫
+  - ⌦
   - {type: trans}
   Mouse:
   - {type: trans}
@@ -137,9 +137,9 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
-  - MC
-  - LC
-  - RC
+  - $$phosphor:regular/mouse-middle-click$$
+  - $$phosphor:regular/mouse-left-click$$
+  - $$phosphor:regular/mouse-right-click$$
   - {type: trans}
   Media:
   - {type: trans}
@@ -155,8 +155,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - LEFT GUI
-  - LEFT ALT
+  - Gui
+  - Alt
   - Ctrl
   - Shift
   - {type: trans}
@@ -208,7 +208,7 @@ layers:
   - '['
   - ']'
   - {type: trans}
-  - LSHIFT
+  - Shift
   - Ctrl
   - Alt
   - Gui
@@ -249,7 +249,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - ':'
-  - Tab
+  - ↹
   - '8'
   - '5'
   - '2'
@@ -261,7 +261,7 @@ layers:
   - Gui
   - {type: trans}
   - '*'
-  - Enter
+  - ⮐
   - '9'
   - '6'
   - '3'
@@ -302,7 +302,7 @@ layers:
   - F2
   - SCROLLLOCK
   - {type: trans}
-  - {t: F14, h: LSHIFT}
+  - {t: F14, h: Shift}
   - {t: F17, h: Ctrl}
   - {t: F20, h: Alt}
   - {t: F22, h: Gui}

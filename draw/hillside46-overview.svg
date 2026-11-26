@@ -66,6 +66,15 @@
 <svg id="phosphor:regular/calculator">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M80,120h96a8,8,0,0,0,8-8V64a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8v48A8,8,0,0,0,80,120Zm8-48h80v32H88ZM200,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm0,192H56V40H200ZM100,148a12,12,0,1,1-12-12A12,12,0,0,1,100,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,148Zm-80,40a12,12,0,1,1-12-12A12,12,0,0,1,100,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,188Z" /></svg>
 </svg>
+<svg id="phosphor:regular/mouse-left-click">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm48,64v24H136V32h8A48.05,48.05,0,0,1,192,80Zm-76.69,24-46-46A48.49,48.49,0,0,1,80.51,43.82L120,83.31V104ZM64,80c0-1.51.08-3,.22-4.47L92.69,104H64Zm56-48V60.69L94.59,35.28A47.73,47.73,0,0,1,112,32Zm24,192H112a48.05,48.05,0,0,1-48-48V120H192v56A48.05,48.05,0,0,1,144,224Z" /></svg>
+</svg>
+<svg id="phosphor:regular/mouse-middle-click">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm48,64v24H152V88a16,16,0,0,0-16-16V32h8A48.05,48.05,0,0,1,192,80Zm-56,56H120V88h16v23.9a.51.51,0,0,0,0,.2ZM112,32h8V72a16,16,0,0,0-16,16v16H64V80A48.05,48.05,0,0,1,112,32Zm32,192H112a48.05,48.05,0,0,1-48-48V120h40v16a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V120h40v56A48.05,48.05,0,0,1,144,224Z" /></svg>
+</svg>
+<svg id="phosphor:regular/mouse-right-click">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm-8,67.31,39.49-39.49A48.49,48.49,0,0,1,186.66,58l-46,46H136Zm55.78-7.78c.14,1.47.22,3,.22,4.47v24H163.31ZM161.41,35.28,136,60.69V32h8A47.73,47.73,0,0,1,161.41,35.28ZM112,32h8v72H64V80A48.05,48.05,0,0,1,112,32Zm32,192H112a48.05,48.05,0,0,1-48-48V120H192v56A48.05,48.05,0,0,1,144,224Z" /></svg>
+</svg>
 </defs>/* end glyphs */
 <style>svg path { fill: inherit; }
 
@@ -355,13 +364,13 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="1" class="key tap">A</text>
 <text x="0" y="22" class="key hold">Gui</text>
 <text x="-22" y="-22" class="key tl">@</text>
-<text x="22" y="-22" class="key tr">Tab</text>
+<text x="22" y="-22" class="key tr">↹</text>
 <text x="-22" y="22" class="key bl">F11</text>
 </g>
 <g transform="translate(148, 101)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">S</text>
-<text x="0" y="22" class="key hold"><tspan style="font-size: 88%">LEFT ALT</tspan></text>
+<text x="0" y="22" class="key hold">Alt</text>
 <text x="-22" y="-22" class="key tl">%</text>
 <text x="22" y="-22" class="key tr">8</text>
 <text x="-22" y="22" class="key bl">F8</text>
@@ -369,7 +378,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(207, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">D</text>
-<text x="0" y="22" class="key hold"><tspan style="font-size: 64%">LEFT CONTR…</tspan></text>
+<text x="0" y="22" class="key hold">Ctrl</text>
 <text x="-22" y="-22" class="key tl">*</text>
 <text x="22" y="-22" class="key tr">5</text>
 <text x="-22" y="22" class="key bl">F5</text>
@@ -377,7 +386,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(263, 100)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">F</text>
-<text x="0" y="22" class="key hold">LSHIFT</text>
+<text x="0" y="22" class="key hold">Shift</text>
 <text x="-22" y="-22" class="key tl">[</text>
 <text x="22" y="-22" class="key tr">2</text>
 <text x="-22" y="22" class="key bl">F2</text>
@@ -443,7 +452,7 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">Z</text>
 <text x="-22" y="-22" class="key tl">#</text>
-<text x="22" y="-22" class="key tr">Enter</text>
+<text x="22" y="-22" class="key tr">⮐</text>
 <text x="-22" y="22" class="key bl">F12</text>
 </g>
 <g transform="translate(151, 157)" class="key keypos-26">
@@ -533,44 +542,44 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(291, 220)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">Esc</text>
+<text x="0" y="1" class="key tap">⎋</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 70%">Navigation</tspan></text>
 <text x="22" y="22" class="key br">.</text>
 </g>
 <g transform="translate(347, 245)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">Spc</text>
+<text x="0" y="1" class="key tap">⌴</text>
 <text x="0" y="22" class="key hold">Mouse</text>
 <text x="22" y="22" class="key br">0</text>
 </g>
 <g transform="translate(403, 277)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">Tab</text>
+<text x="0" y="1" class="key tap">↹</text>
 <text x="0" y="22" class="key hold">Media</text>
 <text x="22" y="22" class="key br">-</text>
 </g>
 <g transform="translate(487, 277)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">Enter</text>
+<text x="0" y="1" class="key tap">⮐</text>
 <text x="0" y="22" class="key hold">Symbol</text>
 <text x="-22" y="-22" class="key tl">ENTER</text>
-<text x="22" y="-22" class="key tr">MC</text>
+<use href="#phosphor:regular/mouse-middle-click" xlink:href="#phosphor:regular/mouse-middle-click" x="8" y="-22" height="14" width="14.0" class="key tr glyph phosphor:regular/mouse-middle-click"/>
 <text x="-22" y="22" class="key bl">STOP</text>
 </g>
 <g transform="translate(543, 245)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<text x="0" y="1" class="key tap">⌫</text>
 <text x="0" y="22" class="key hold">Number</text>
-<text x="-22" y="-22" class="key tl">Bspc</text>
-<text x="22" y="-22" class="key tr">LC</text>
+<text x="-22" y="-22" class="key tl">⌫</text>
+<use href="#phosphor:regular/mouse-left-click" xlink:href="#phosphor:regular/mouse-left-click" x="8" y="-22" height="14" width="14.0" class="key tr glyph phosphor:regular/mouse-left-click"/>
 <text x="-22" y="22" class="key bl"><tspan style="font-size: 70%">PLAY PAUSE</tspan></text>
 </g>
 <g transform="translate(599, 220)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="1" class="key tap">Del</text>
+<text x="0" y="1" class="key tap">⌦</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 88%">Function</tspan></text>
-<text x="-22" y="-22" class="key tl">Del</text>
-<text x="22" y="-22" class="key tr">RC</text>
+<text x="-22" y="-22" class="key tl">⌦</text>
+<use href="#phosphor:regular/mouse-right-click" xlink:href="#phosphor:regular/mouse-right-click" x="8" y="-22" height="14" width="14.0" class="key tr glyph phosphor:regular/mouse-right-click"/>
 <use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:volume-off"/>
 </g>
 <g transform="translate(655, 212)" class="key keypos-45">

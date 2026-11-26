@@ -54,9 +54,9 @@ parse_config:
     "&smart_mouse": "__COMPOSITE_smart_mouse__"
     "&smart_nav": "$$material:drag_pan$$"
     
-    "&mkp LCLK": LC
-    "&mkp RCLK": RC 
-    "&mkp MCLK": MC
+    "&mkp LCLK": "$$phosphor:regular/mouse-left-click$$"
+    "&mkp MCLK": "$$phosphor:regular/mouse-middle-click$$"
+    "&mkp RCLK": "$$phosphor:regular/mouse-right-click$$"
     "&mkp MB4": Back Click
     "&mkp MB5": Forward Click
 
@@ -76,22 +76,36 @@ parse_config:
   zmk_keycode_map:
     # custom mappings
     LALT: Alt
+    LEFT_ALT: Alt
     RALT: Alt
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
+    RIGHT_ALT: Alt
 
-    BSPC: Bspc
-    DEL: Del
-    DELETE: Del
-    ESC: Esc
-    ESCAPE: Esc
-    RET: Enter
-    SPACE: Spc
-    TAB: Tab
+    LCTRL: Ctrl
+    LEFT_CONTROL: Ctrl
+    RCTRL: Ctrl
+    RIGHT_CONTROL: Ctrl
+
+    LGUI: Gui
+    LEFT_GUI: Gui
+    RGUI: Gui
+    RIGHT_GUI: Gui
+
+    LSHFT: Shift
+    LSHIFT: Shift
+    LEFT_SHIFT: Shift
+    RSHFT: Shift
+    RSHIFT: Shift
+    RIGHT_SHIFT: Shift
+
+    BSPC: ⌫
+    BACKSPACE: ⌫
+    DEL: ⌦
+    DELETE: ⌦
+    ESC: ⎋
+    ESCAPE: ⎋
+    RET: ⮐
+    SPACE: ⌴
+    TAB: ↹
 
     PG_UP: PgUp
     PG_DN: PgDn
