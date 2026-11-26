@@ -12,11 +12,11 @@ parse_config:
     "&caps_word": Caps Word
     "&kp LA(F4)": Close
 
-    "&bt BT_SEL 0": BT 1
-    "&bt BT_SEL 1": BT 2
-    "&bt BT_SEL 2": BT 3
-    "&bt BT_SEL 3": BT 4
-    "&bt BT_SEL 4": BT 5
+    "&bt BT_SEL 0": "__COMPOSITE_bt_slot_1__"
+    "&bt BT_SEL 1": "__COMPOSITE_bt_slot_2__"
+    "&bt BT_SEL 2": "__COMPOSITE_bt_slot_3__"
+    "&bt BT_SEL 3": "__COMPOSITE_bt_slot_4__"
+    "&bt BT_SEL 4": "__COMPOSITE_bt_slot_5__"
 
     "&kp LC(INS)": Copy
     "&kp LC(X)": Cut
@@ -54,9 +54,9 @@ parse_config:
     "&smart_mouse": "__COMPOSITE_smart_mouse__"
     "&smart_nav": "$$material:drag_pan$$"
     
-    "&mkp LCLK": Left Click
-    "&mkp RCLK": Right Click
-    "&mkp MCLK": Middle Click
+    "&mkp LCLK": LC
+    "&mkp RCLK": RC 
+    "&mkp MCLK": MC
     "&mkp MB4": Back Click
     "&mkp MB5": Forward Click
 

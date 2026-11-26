@@ -137,9 +137,9 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
-  - Middle Click
-  - Left Click
-  - Right Click
+  - MC
+  - LC
+  - RC
   - {type: trans}
   Media:
   - {type: trans}
@@ -174,11 +174,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - __COMPOSITE_bt_slot_1__
+  - __COMPOSITE_bt_slot_2__
+  - __COMPOSITE_bt_slot_3__
+  - __COMPOSITE_bt_slot_4__
+  - __COMPOSITE_bt_slot_5__
   - $$fa:solid/repeat$$
   - {type: trans}
   - {type: trans}

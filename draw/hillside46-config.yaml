@@ -200,3 +200,87 @@ composite_legends:
         value: SCROLL
         size: 8
 
+  "&bt BT_SEL 0":
+    marker: "__COMPOSITE_bt_slot_1__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 1
+      padding: 1
+    elements:
+      - type: glyph
+        source: mdi
+        name: bluetooth
+        size: 21
+      - type: text
+        value: "1"
+        size: 13
+        weight: bold
+
+  "&bt BT_SEL 1":
+    marker: "__COMPOSITE_bt_slot_2__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 1
+      padding: 1
+    elements:
+      - type: glyph
+        source: mdi
+        name: bluetooth
+        size: 21
+      - type: text
+        value: "2"
+        size: 13
+        weight: bold
+
+  "&bt BT_SEL 2":
+    marker: "__COMPOSITE_bt_slot_3__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 1
+      padding: 1
+    elements:
+      - type: glyph
+        source: mdi
+        name: bluetooth
+        size: 21
+      - type: text
+        value: "3"
+        size: 13
+        weight: bold
+
+  "&bt BT_SEL 3":
+    marker: "__COMPOSITE_bt_slot_4__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 1
+      padding: 1
+    elements:
+      - type: glyph
+        source: mdi
+        name: bluetooth
+        size: 21
+      - type: text
+        value: "4"
+        size: 13
+        weight: bold
+
+  "&bt BT_SEL 4":
+    marker: "__COMPOSITE_bt_slot_5__"
+    layout:
+      direction: horizontal
+      cross_align: center
+      gap: 1
+      padding: 1
+    elements:
+      - type: glyph
+        source: mdi
+        name: bluetooth
+        size: 21
+      - type: text
+        value: "5"
+        size: 13
+        weight: bold

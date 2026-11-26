@@ -1,5 +1,20 @@
 <svg width="910" height="639" viewBox="0 0 910 639" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="composite_bt_BT_SEL_0_0017a44e">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.28 23" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg><text x="26.64" y="11.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="7.28" lengthAdjust="spacingAndGlyphs">1</text></g></svg>
+</svg>
+<svg id="composite_bt_BT_SEL_1_6c7adc28">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.28 23" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg><text x="26.64" y="11.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="7.28" lengthAdjust="spacingAndGlyphs">2</text></g></svg>
+</svg>
+<svg id="composite_bt_BT_SEL_2_b3b19888">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.28 23" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg><text x="26.64" y="11.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="7.28" lengthAdjust="spacingAndGlyphs">3</text></g></svg>
+</svg>
+<svg id="composite_bt_BT_SEL_3_a3676d46">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.28 23" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg><text x="26.64" y="11.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="7.28" lengthAdjust="spacingAndGlyphs">4</text></g></svg>
+</svg>
+<svg id="composite_bt_BT_SEL_4_d47654c1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.28 23" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg><text x="26.64" y="11.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="7.28" lengthAdjust="spacingAndGlyphs">5</text></g></svg>
+</svg>
 <svg id="composite_mmv_MOVE_DOWN_937ab555">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
 </svg>
@@ -474,14 +489,14 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">N</text>
 <text x="-22" y="-22" class="key tl">REDO</text>
-<text x="-22" y="22" class="key bl">BT 1</text>
+<use href="#composite_bt_BT_SEL_0_0017a44e" xlink:href="#composite_bt_BT_SEL_0_0017a44e" x="-22" y="8" height="14" width="14.0" class="key bl glyph composite_bt_BT_SEL_0_0017a44e"/>
 </g>
 <g transform="translate(627, 156)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">M</text>
 <text x="-22" y="-22" class="key tl">Ins</text>
 <use href="#composite_msc_SCRL_LEFT_f91377ad" xlink:href="#composite_msc_SCRL_LEFT_f91377ad" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_LEFT_f91377ad"/>
-<text x="-22" y="22" class="key bl">BT 2</text>
+<use href="#composite_bt_BT_SEL_1_6c7adc28" xlink:href="#composite_bt_BT_SEL_1_6c7adc28" x="-22" y="8" height="14" width="14.0" class="key bl glyph composite_bt_BT_SEL_1_6c7adc28"/>
 </g>
 <g transform="translate(683, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -489,7 +504,7 @@ path.combo { stroke: #7f7f7f; }
 <use href="#composite_smart_mouse_1362bede" xlink:href="#composite_smart_mouse_1362bede" x="-9" y="4" height="18" width="18.0" class="key hold glyph composite_smart_mouse_1362bede"/>
 <text x="-22" y="-22" class="key tl">COPY</text>
 <use href="#composite_msc_SCRL_DOWN_2ebd2772" xlink:href="#composite_msc_SCRL_DOWN_2ebd2772" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_DOWN_2ebd2772"/>
-<text x="-22" y="22" class="key bl">BT 3</text>
+<use href="#composite_bt_BT_SEL_2_b3b19888" xlink:href="#composite_bt_BT_SEL_2_b3b19888" x="-22" y="8" height="14" width="14.0" class="key bl glyph composite_bt_BT_SEL_2_b3b19888"/>
 </g>
 <g transform="translate(739, 157)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -497,14 +512,14 @@ path.combo { stroke: #7f7f7f; }
 <use href="#material:drag_pan" xlink:href="#material:drag_pan" x="-9" y="4" height="18" width="18.0" class="key hold glyph material:drag_pan"/>
 <text x="-22" y="-22" class="key tl">PASTE</text>
 <use href="#composite_msc_SCRL_UP_716f2faf" xlink:href="#composite_msc_SCRL_UP_716f2faf" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_UP_716f2faf"/>
-<text x="-22" y="22" class="key bl">BT 4</text>
+<use href="#composite_bt_BT_SEL_3_a3676d46" xlink:href="#composite_bt_BT_SEL_3_a3676d46" x="-22" y="8" height="14" width="14.0" class="key bl glyph composite_bt_BT_SEL_3_a3676d46"/>
 </g>
 <g transform="translate(795, 192)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="1" class="key tap">/</text>
 <text x="-22" y="-22" class="key tl">CUT</text>
 <use href="#composite_msc_SCRL_RIGHT_c32642b1" xlink:href="#composite_msc_SCRL_RIGHT_c32642b1" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_RIGHT_c32642b1"/>
-<text x="-22" y="22" class="key bl">BT 5</text>
+<use href="#composite_bt_BT_SEL_4_d47654c1" xlink:href="#composite_bt_BT_SEL_4_d47654c1" x="-22" y="8" height="14" width="14.0" class="key bl glyph composite_bt_BT_SEL_4_d47654c1"/>
 </g>
 <g transform="translate(851, 203)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -539,7 +554,7 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="1" class="key tap">Enter</text>
 <text x="0" y="22" class="key hold">Symbol</text>
 <text x="-22" y="-22" class="key tl">ENTER</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 64%">Middle Cli…</tspan></text>
+<text x="22" y="-22" class="key tr">MC</text>
 <text x="-22" y="22" class="key bl">STOP</text>
 </g>
 <g transform="translate(543, 245)" class="key keypos-43">
@@ -547,7 +562,7 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="1" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 <text x="0" y="22" class="key hold">Number</text>
 <text x="-22" y="-22" class="key tl">Bspc</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 70%">Left Click</tspan></text>
+<text x="22" y="-22" class="key tr">LC</text>
 <text x="-22" y="22" class="key bl"><tspan style="font-size: 70%">PLAY PAUSE</tspan></text>
 </g>
 <g transform="translate(599, 220)" class="key keypos-44">
@@ -555,7 +570,7 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="1" class="key tap">Del</text>
 <text x="0" y="22" class="key hold"><tspan style="font-size: 88%">Function</tspan></text>
 <text x="-22" y="-22" class="key tl">Del</text>
-<text x="22" y="-22" class="key tr"><tspan style="font-size: 64%">Right Click</tspan></text>
+<text x="22" y="-22" class="key tr">RC</text>
 <use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:volume-off"/>
 </g>
 <g transform="translate(655, 212)" class="key keypos-45">
