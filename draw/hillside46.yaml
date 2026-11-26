@@ -189,7 +189,7 @@ layers:
   - $$mdi:volume-off$$
   - {type: trans}
   Symbol:
-  - $$ph:ph-calculator$$
+  - $$phosphor:regular/calculator$$
   - '!'
   - $
   - '&'

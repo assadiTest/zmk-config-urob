@@ -1,0 +1,730 @@
+<svg width="910" height="639" viewBox="0 0 910 639" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="composite_mmv_MOVE_DOWN_937ab555">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_mmv_MOVE_LEFT_8c9bf16b">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_mmv_MOVE_RIGHT_4c1663c6">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg><svg x="19" y="2" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_mmv_MOVE_UP_39d0838b">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 22" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" /></svg><svg x="23" y="6.5" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M480-80q-118 0-199-81t-81-199v-260q0-118 81-199t199-81q118 0 199 81t81 199v260q0 118-81 199T480-80Zm30-540h190q0-81-53-144t-137-74v218Zm-250 0h190v-218q-84 11-137 74t-53 144Zm219.79 480q91.21 0 155.71-64.35Q700-268.7 700-360v-200H260v200q0 91.3 64.29 155.65Q388.58-140 479.79-140Zm.21-420Zm30-60Zm-60 0Zm30 60Z" /></svg></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_DOWN_2ebd2772">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 11.1071" color="inherit"><g transform="scale(0.6534)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" /></svg><text x="36.55" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="9" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="35.1" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_LEFT_f91377ad">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.2 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M7,12L12,7V10H16V14H12V17L7,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12Z" /></svg><text x="33.6" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="8" font-weight="normal" font-family="inherit" letter-spacing="0" textLength="31.2" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_RIGHT_c32642b1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.2 17" color="inherit"><g transform="scale(1)" color="inherit"><svg x="1" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M17,12L12,17V14H8V10H12V7L17,12M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12Z" /></svg><text x="33.6" y="8.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="8" font-weight="normal" font-family="inherit" letter-spacing="0" textLength="31.2" lengthAdjust="spacingAndGlyphs">SCROLL</text></g></svg>
+</svg>
+<svg id="composite_msc_SCRL_UP_716f2faf">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.6 34.75" color="inherit"><g transform="scale(1)" color="inherit"><svg x="5.8" y="1" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z" /></svg><text x="15.3" y="26.875" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="11" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="28.6" lengthAdjust="spacingAndGlyphs">SCRL</text></g></svg>
+</svg>
+<svg id="composite_smart_mouse_1362bede">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 39" color="inherit"><g transform="scale(1)" color="inherit"><svg x="5.5" y="1" viewBox="0 -960 960 960" preserveAspectRatio="xMidYMid meet" color="inherit"><path d="M482-120q-96 0-165-62t-77-154q-68-17-114-67T80-522q0-81 60-134.5T282-710h106q14 0 23-10.5t9-24.5q0-14-9-24.5T388-780h-65q-14.02 0-23.51-8.68-9.49-8.67-9.49-21.5 0-12.82 9.5-21.32T322-840h63q39 0 67 28t28 67.5q0 39.5-27.84 67T384-650H278q-57.5 0-97.75 37.5T140-519.94Q140-475 169.5-442t72.5 46q13-88 79.1-146T475-600q21.36 0 42.18 3t37.82 9q8-3 15.98-5.29 7.99-2.28 16.5-4Q596-599 604-599.5t17.11-.5q73.89 0 126.39 51.5T800-423v12q0 7-2 15l36 35q22 21 33.5 46.5t11.5 54.67q0 58.35-40 99.09T741-120H482Zm0-60h257q32 0 56.5-24t24.5-56q0-16.34-7-30.17Q806-304 792-318l-59-58q4-12 5.5-23.5T740-422q0-49-34.51-83.5T621-540q-46 0-78.5 33.35T510-425q0 21.05 6 40.53Q522-365 535-349l-42 42q-23-24-33-55.4T450-427q0-31.27 10-60.14Q470-516 490-539q-8-2-13.5-1.5t-10.5.5q-67 0-117.5 55T298-357q0 35.87 14.5 67.93Q327-257 352.45-232.65q25.45 24.34 59 38.5Q445-180 482-180Zm198-70q-12 0-21-9t-9-21.5q0-12.5 9-21t21.5-8.5q12.5 0 21 8.62 8.5 8.63 8.5 21.38 0 12-8.62 21-8.63 9-21.38 9ZM559-390Z" /></svg><text x="16" y="30.5" fill="inherit" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold" font-family="inherit" letter-spacing="0" textLength="30" lengthAdjust="spacingAndGlyphs">SMART</text></g></svg>
+</svg>
+<svg id="fa:solid/repeat">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 118.6c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9S352 19.1 352 32l0 32-160 0C86 64 0 150 0 256 0 273.7 14.3 288 32 288s32-14.3 32-32c0-70.7 57.3-128 128-128l160 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64zM41.4 393.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9S160 492.9 160 480l0-32 160 0c106 0 192-86 192-192 0-17.7-14.3-32-32-32s-32 14.3-32 32c0 70.7-57.3 128-128 128l-160 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64z" /></svg>
+</svg>
+<svg id="material:drag_pan">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80 317-243l44-44 89 89v-252H198l84 84-44 44L80-480l159-159 44 44-85 85h252v-252l-84 84-44-44 158-158 158 158-44 44-84-84v252h252l-84-84 44-44 158 158-158 158-44-44 84-84H510v252l89-89 44 44L480-80Z" /></svg>
+</svg>
+<svg id="mdi:skip-backward">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-backward" viewBox="0 0 24 24"><path d="M20,5V19L13,12M6,5V19H4V5M13,5V19L6,12" /></svg>
+</svg>
+<svg id="mdi:skip-forward">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-forward" viewBox="0 0 24 24"><path d="M4,5V19L11,12M18,5V19H20V5M11,5V19L18,12" /></svg>
+</svg>
+<svg id="mdi:volume-high">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+</svg>
+<svg id="mdi:volume-medium">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-medium" viewBox="0 0 24 24"><path d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" /></svg>
+</svg>
+<svg id="mdi:volume-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
+</svg>
+<svg id="phosphor:regular/calculator">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M80,120h96a8,8,0,0,0,8-8V64a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8v48A8,8,0,0,0,80,120Zm8-48h80v32H88ZM200,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm0,192H56V40H200ZM100,148a12,12,0,1,1-12-12A12,12,0,0,1,100,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,148Zm-80,40a12,12,0,1,1-12-12A12,12,0,0,1,100,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,188Z" /></svg>
+</svg>
+</defs>/* end glyphs */
+<style>svg path { fill: inherit; }
+
+svg.keymap {
+    --color-bg:      #282828;
+    --color-key:     #3c3836;
+    --color-text:    #ebdbb2;
+    --color-ghost:   #504945;
+    --color-dendron: #665c54;
+    --color-held:    #504945;
+
+    /* Left-hand layers */
+    --color-sym: #b16286;
+    --color-num: #d65d0e;
+    --color-fun: #98971a;
+
+    /* Right-hand layers */
+    --color-nav: #d79921;
+    --color-mou: #458588;
+    --color-med: #689d6a;
+
+    fill: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: Calibri, system-ui, sans-serif;
+    font-size: 16px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+    letter-spacing: 0.02em;
+}
+
+text.tap     { font-weight: 500; }
+text.hold    { font-weight: 400; font-size: 13px; }
+text.shifted { font-weight: 400; font-size: 11px; }
+text.combo, text.left, text.right, text.tl, text.tr, text.bl, text.br { font-size: 10px; }
+
+text.hold, text.bl, text.br    { text-anchor: middle; dominant-baseline: auto; }
+text.shifted, text.tl, text.tr { text-anchor: middle; dominant-baseline: hanging; }
+text.left, text.tl, text.bl    { text-anchor: start; }
+text.right, text.tr, text.br   { text-anchor: end; }
+
+text.layer-activator { text-decoration: underline; }
+text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right { font-size: 8px; }
+
+text.label, text.footer {
+    fill: var(--color-key);
+    stroke: var(--color-bg);
+    stroke-width: 4;
+    paint-order: stroke;
+}
+text.label  { font-weight: bold; text-anchor: start; }
+text.footer { text-anchor: end; dominant-baseline: auto; }
+
+rect.key, rect.combo, rect.combo-separate { fill: var(--color-key); stroke-width: 0; }
+rect.held, rect.combo.held                { fill: var(--color-held); }
+.layer-Combos rect.key                    { fill: var(--color-ghost); }
+
+path.combo { stroke: var(--color-dendron); stroke-width: 2; stroke-dasharray: 2, 3; opacity: 0.45; fill: none; }
+
+.icon-tabler > path                             { fill: inherit; stroke: inherit; stroke-width: 2; }
+.icon-tabler > path[stroke="none"][fill="none"] { visibility: hidden; }
+
+    @media (prefers-color-scheme: dark) {
+    svg.keymap {
+        --color-bg:      #a89984;
+        --color-key:     #282828;
+        --color-text:    #ebdbb2;
+        --color-ghost:   #928374;
+        --color-dendron: #504945;
+        --color-held:    #665c54;
+
+        --color-sym: #b16286;
+        --color-num: #d65d0e;
+        --color-fun: #98971a;
+
+        --color-nav: #d79921;
+        --color-mou: #458588;
+        --color-med: #689d6a;
+    }
+}
+
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
+
+.keypos-0 text.tl, .keypos-0 use.tl { fill: var(--color-sym); }
+.keypos-0 text.tr, .keypos-0 use.tr { fill: var(--color-num); }
+.keypos-1 text.tl, .keypos-1 use.tl { fill: var(--color-sym); }
+.keypos-1 text.tr, .keypos-1 use.tr { fill: var(--color-num); }
+.keypos-1 text.bl, .keypos-1 use.bl { fill: var(--color-fun); }
+.keypos-2 text.tl, .keypos-2 use.tl { fill: var(--color-sym); }
+.keypos-2 text.tr, .keypos-2 use.tr { fill: var(--color-num); }
+.keypos-2 text.bl, .keypos-2 use.bl { fill: var(--color-fun); }
+.keypos-3 text.tl, .keypos-3 use.tl { fill: var(--color-sym); }
+.keypos-3 text.tr, .keypos-3 use.tr { fill: var(--color-num); }
+.keypos-3 text.bl, .keypos-3 use.bl { fill: var(--color-fun); }
+.keypos-4 text.tl, .keypos-4 use.tl { fill: var(--color-sym); }
+.keypos-4 text.tr, .keypos-4 use.tr { fill: var(--color-num); }
+.keypos-4 text.bl, .keypos-4 use.bl { fill: var(--color-fun); }
+.keypos-5 text.tl, .keypos-5 use.tl { fill: var(--color-sym); }
+.keypos-5 text.tr, .keypos-5 use.tr { fill: var(--color-num); }
+.keypos-5 text.bl, .keypos-5 use.bl { fill: var(--color-fun); }
+.keypos-6 text.tl, .keypos-6 use.tl { fill: var(--color-nav); }
+.keypos-7 text.tl, .keypos-7 use.tl { fill: var(--color-nav); }
+.keypos-8 text.tl, .keypos-8 use.tl { fill: var(--color-nav); }
+.keypos-8 text.bl, .keypos-8 use.bl { fill: var(--color-med); }
+.keypos-9 text.tl, .keypos-9 use.tl { fill: var(--color-nav); }
+.keypos-10 text.tl, .keypos-10 use.tl { fill: var(--color-nav); }
+.keypos-12 text.tl, .keypos-12 use.tl { fill: var(--color-sym); }
+.keypos-12 text.tr, .keypos-12 use.tr { fill: var(--color-num); }
+.keypos-13 text.tl, .keypos-13 use.tl { fill: var(--color-sym); }
+.keypos-13 text.tr, .keypos-13 use.tr { fill: var(--color-num); }
+.keypos-13 text.bl, .keypos-13 use.bl { fill: var(--color-fun); }
+.keypos-14 text.tl, .keypos-14 use.tl { fill: var(--color-sym); }
+.keypos-14 text.tr, .keypos-14 use.tr { fill: var(--color-num); }
+.keypos-14 text.bl, .keypos-14 use.bl { fill: var(--color-fun); }
+.keypos-15 text.tl, .keypos-15 use.tl { fill: var(--color-sym); }
+.keypos-15 text.tr, .keypos-15 use.tr { fill: var(--color-num); }
+.keypos-15 text.bl, .keypos-15 use.bl { fill: var(--color-fun); }
+.keypos-16 text.tl, .keypos-16 use.tl { fill: var(--color-sym); }
+.keypos-16 text.tr, .keypos-16 use.tr { fill: var(--color-num); }
+.keypos-16 text.bl, .keypos-16 use.bl { fill: var(--color-fun); }
+.keypos-17 text.tl, .keypos-17 use.tl { fill: var(--color-sym); }
+.keypos-17 text.tr, .keypos-17 use.tr { fill: var(--color-num); }
+.keypos-17 text.bl, .keypos-17 use.bl { fill: var(--color-fun); }
+.keypos-18 text.tl, .keypos-18 use.tl { fill: var(--color-nav); }
+.keypos-18 text.bl, .keypos-18 use.bl { fill: var(--color-med); }
+.keypos-19 text.tl, .keypos-19 use.tl { fill: var(--color-nav); }
+.keypos-19 text.tr, .keypos-19 use.tr { fill: var(--color-mou); }
+.keypos-19 text.bl, .keypos-19 use.bl { fill: var(--color-med); }
+.keypos-20 text.tl, .keypos-20 use.tl { fill: var(--color-nav); }
+.keypos-20 text.tr, .keypos-20 use.tr { fill: var(--color-mou); }
+.keypos-20 text.bl, .keypos-20 use.bl { fill: var(--color-med); }
+.keypos-21 text.tl, .keypos-21 use.tl { fill: var(--color-nav); }
+.keypos-21 text.tr, .keypos-21 use.tr { fill: var(--color-mou); }
+.keypos-21 text.bl, .keypos-21 use.bl { fill: var(--color-med); }
+.keypos-22 text.tl, .keypos-22 use.tl { fill: var(--color-nav); }
+.keypos-22 text.tr, .keypos-22 use.tr { fill: var(--color-mou); }
+.keypos-22 text.bl, .keypos-22 use.bl { fill: var(--color-med); }
+.keypos-24 text.tl, .keypos-24 use.tl { fill: var(--color-sym); }
+.keypos-24 text.tr, .keypos-24 use.tr { fill: var(--color-num); }
+.keypos-25 text.tl, .keypos-25 use.tl { fill: var(--color-sym); }
+.keypos-25 text.tr, .keypos-25 use.tr { fill: var(--color-num); }
+.keypos-25 text.bl, .keypos-25 use.bl { fill: var(--color-fun); }
+.keypos-26 text.tl, .keypos-26 use.tl { fill: var(--color-sym); }
+.keypos-26 text.tr, .keypos-26 use.tr { fill: var(--color-num); }
+.keypos-26 text.bl, .keypos-26 use.bl { fill: var(--color-fun); }
+.keypos-27 text.tl, .keypos-27 use.tl { fill: var(--color-sym); }
+.keypos-27 text.tr, .keypos-27 use.tr { fill: var(--color-num); }
+.keypos-27 text.bl, .keypos-27 use.bl { fill: var(--color-fun); }
+.keypos-28 text.tl, .keypos-28 use.tl { fill: var(--color-sym); }
+.keypos-28 text.tr, .keypos-28 use.tr { fill: var(--color-num); }
+.keypos-28 text.bl, .keypos-28 use.bl { fill: var(--color-fun); }
+.keypos-29 text.tl, .keypos-29 use.tl { fill: var(--color-sym); }
+.keypos-29 text.tr, .keypos-29 use.tr { fill: var(--color-num); }
+.keypos-29 text.bl, .keypos-29 use.bl { fill: var(--color-fun); }
+.keypos-32 text.tl, .keypos-32 use.tl { fill: var(--color-nav); }
+.keypos-32 text.bl, .keypos-32 use.bl { fill: var(--color-med); }
+.keypos-33 text.tl, .keypos-33 use.tl { fill: var(--color-nav); }
+.keypos-33 text.tr, .keypos-33 use.tr { fill: var(--color-mou); }
+.keypos-33 text.bl, .keypos-33 use.bl { fill: var(--color-med); }
+.keypos-34 text.tl, .keypos-34 use.tl { fill: var(--color-nav); }
+.keypos-34 text.tr, .keypos-34 use.tr { fill: var(--color-mou); }
+.keypos-34 text.bl, .keypos-34 use.bl { fill: var(--color-med); }
+.keypos-35 text.tl, .keypos-35 use.tl { fill: var(--color-nav); }
+.keypos-35 text.tr, .keypos-35 use.tr { fill: var(--color-mou); }
+.keypos-35 text.bl, .keypos-35 use.bl { fill: var(--color-med); }
+.keypos-36 text.tl, .keypos-36 use.tl { fill: var(--color-nav); }
+.keypos-36 text.tr, .keypos-36 use.tr { fill: var(--color-mou); }
+.keypos-36 text.bl, .keypos-36 use.bl { fill: var(--color-med); }
+.keypos-37 text.bl, .keypos-37 use.bl { fill: var(--color-med); }
+.keypos-31 text.bl, .keypos-31 use.bl { fill: var(--color-med); }
+.keypos-39 text.br, .keypos-39 use.br { fill: var(--color-num); }
+.keypos-40 text.br, .keypos-40 use.br { fill: var(--color-num); }
+.keypos-41 text.br, .keypos-41 use.br { fill: var(--color-num); }
+.keypos-42 text.tl, .keypos-42 use.tl { fill: var(--color-nav); }
+.keypos-42 text.tr, .keypos-42 use.tr { fill: var(--color-mou); }
+.keypos-42 text.bl, .keypos-42 use.bl { fill: var(--color-med); }
+.keypos-43 text.tl, .keypos-43 use.tl { fill: var(--color-nav); }
+.keypos-43 text.tr, .keypos-43 use.tr { fill: var(--color-mou); }
+.keypos-43 text.bl, .keypos-43 use.bl { fill: var(--color-med); }
+.keypos-44 text.tl, .keypos-44 use.tl { fill: var(--color-nav); }
+.keypos-44 text.tr, .keypos-44 use.tr { fill: var(--color-mou); }
+.keypos-44 text.bl, .keypos-44 use.bl { fill: var(--color-med); }
+.keypos-39 text.hold { fill: var(--color-nav); }
+.keypos-40 text.hold { fill: var(--color-mou); }
+.keypos-41 text.hold { fill: var(--color-med); }
+.keypos-42 text.hold { fill: var(--color-sym); }
+.keypos-43 text.hold { fill: var(--color-num); }
+.keypos-44 text.hold { fill: var(--color-fun); }
+</style>
+<g transform="translate(10, 0)" class="layer-qwerty">
+<text x="0" y="5" class="label" id="qwerty">qwerty</text>
+<g transform="translate(0, 10)">
+<g transform="translate(28, 91)" class="key keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">`</text>
+<use href="#phosphor:regular/calculator" xlink:href="#phosphor:regular/calculator" x="-22" y="-22" height="14" width="14.0" class="key tl glyph phosphor:regular/calculator"/>
+<text x="22" y="-22" class="key tr">,</text>
+</g>
+<g transform="translate(84, 80)" class="key keypos-1">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Q</text>
+<text x="-22" y="-22" class="key tl">!</text>
+<text x="22" y="-22" class="key tr">+</text>
+<text x="-22" y="22" class="key bl">F10</text>
+</g>
+<g transform="translate(146, 45)" class="key keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">W</text>
+<text x="-22" y="-22" class="key tl">$</text>
+<text x="22" y="-22" class="key tr">7</text>
+<text x="-22" y="22" class="key bl">F7</text>
+</g>
+<g transform="translate(207, 28)" class="key keypos-3">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">E</text>
+<text x="-22" y="-22" class="key tl">&amp;</text>
+<text x="22" y="-22" class="key tr">4</text>
+<text x="-22" y="22" class="key bl">F4</text>
+</g>
+<g transform="translate(263, 44)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">R</text>
+<text x="-22" y="-22" class="key tl">(</text>
+<text x="22" y="-22" class="key tr">1</text>
+<text x="-22" y="22" class="key bl">F1</text>
+</g>
+<g transform="translate(319, 52)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">T</text>
+<text x="-22" y="-22" class="key tl">)</text>
+<text x="22" y="-22" class="key tr">=</text>
+<text x="-22" y="22" class="key bl"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
+</g>
+<g transform="translate(571, 52)" class="key keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Y</text>
+<text x="-22" y="-22" class="key tl">UNDO</text>
+</g>
+<g transform="translate(627, 44)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">U</text>
+<text x="-22" y="-22" class="key tl">Home</text>
+</g>
+<g transform="translate(683, 28)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">I</text>
+<text x="-22" y="-22" class="key tl">PgDn</text>
+<text x="-22" y="22" class="key bl">OUT TOG</text>
+</g>
+<g transform="translate(745, 45)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">O</text>
+<text x="-22" y="-22" class="key tl">PgUp</text>
+</g>
+<g transform="translate(806, 80)" class="key keypos-10">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">P</text>
+<text x="-22" y="-22" class="key tl">End</text>
+</g>
+<g transform="translate(862, 91)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">
+<tspan x="0" dy="-0.6em">&amp;aim</tspan><tspan x="0" dy="1.2em">AIM_TOG</tspan>
+</text>
+</g>
+<g transform="translate(34, 147)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">!</text>
+<text x="0" y="22" class="key hold">|</text>
+<text x="-22" y="-22" class="key tl">:</text>
+<text x="22" y="-22" class="key tr">:</text>
+</g>
+<g transform="translate(90, 136)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">A</text>
+<text x="0" y="22" class="key hold">Gui</text>
+<text x="-22" y="-22" class="key tl">@</text>
+<text x="22" y="-22" class="key tr">Tab</text>
+<text x="-22" y="22" class="key bl">F11</text>
+</g>
+<g transform="translate(148, 101)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">S</text>
+<text x="0" y="22" class="key hold"><tspan style="font-size: 88%">LEFT ALT</tspan></text>
+<text x="-22" y="-22" class="key tl">%</text>
+<text x="22" y="-22" class="key tr">8</text>
+<text x="-22" y="22" class="key bl">F8</text>
+</g>
+<g transform="translate(207, 84)" class="key keypos-15">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">D</text>
+<text x="0" y="22" class="key hold"><tspan style="font-size: 64%">LEFT CONTR…</tspan></text>
+<text x="-22" y="-22" class="key tl">*</text>
+<text x="22" y="-22" class="key tr">5</text>
+<text x="-22" y="22" class="key bl">F5</text>
+</g>
+<g transform="translate(263, 100)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">F</text>
+<text x="0" y="22" class="key hold">LSHIFT</text>
+<text x="-22" y="-22" class="key tl">[</text>
+<text x="22" y="-22" class="key tr">2</text>
+<text x="-22" y="22" class="key bl">F2</text>
+</g>
+<g transform="translate(319, 108)" class="key keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">G</text>
+<text x="-22" y="-22" class="key tl">]</text>
+<text x="22" y="-22" class="key tr">/</text>
+<text x="-22" y="22" class="key bl"><tspan style="font-size: 70%">SCROLLLOCK</tspan></text>
+</g>
+<g transform="translate(571, 108)" class="key keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">H</text>
+<text x="-22" y="-22" class="key tl"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<text x="-22" y="22" class="key bl">EP TOG</text>
+</g>
+<g transform="translate(627, 100)" class="key keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">J</text>
+<text x="0" y="22" class="key hold">Shift</text>
+<text x="-22" y="-22" class="key tl">←</text>
+<use href="#composite_mmv_MOVE_LEFT_8c9bf16b" xlink:href="#composite_mmv_MOVE_LEFT_8c9bf16b" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_mmv_MOVE_LEFT_8c9bf16b"/>
+<use href="#mdi:skip-backward" xlink:href="#mdi:skip-backward" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:skip-backward"/>
+</g>
+<g transform="translate(683, 84)" class="key keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">K</text>
+<text x="0" y="22" class="key hold">Ctrl</text>
+<text x="-22" y="-22" class="key tl">↓</text>
+<use href="#composite_mmv_MOVE_DOWN_937ab555" xlink:href="#composite_mmv_MOVE_DOWN_937ab555" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_mmv_MOVE_DOWN_937ab555"/>
+<use href="#mdi:volume-medium" xlink:href="#mdi:volume-medium" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:volume-medium"/>
+</g>
+<g transform="translate(742, 101)" class="key keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">L</text>
+<text x="0" y="22" class="key hold">Alt</text>
+<text x="-22" y="-22" class="key tl">↑</text>
+<use href="#composite_mmv_MOVE_UP_39d0838b" xlink:href="#composite_mmv_MOVE_UP_39d0838b" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_mmv_MOVE_UP_39d0838b"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:volume-high"/>
+</g>
+<g transform="translate(801, 136)" class="key keypos-22">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">;</text>
+<text x="0" y="22" class="key hold">Gui</text>
+<text x="-22" y="-22" class="key tl">→</text>
+<use href="#composite_mmv_MOVE_RIGHT_4c1663c6" xlink:href="#composite_mmv_MOVE_RIGHT_4c1663c6" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_mmv_MOVE_RIGHT_4c1663c6"/>
+<use href="#mdi:skip-forward" xlink:href="#mdi:skip-forward" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:skip-forward"/>
+</g>
+<g transform="translate(857, 147)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">-</text>
+<text x="0" y="22" class="key hold">_</text>
+</g>
+<g transform="translate(39, 203)" class="key keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">*</text>
+<text x="0" y="22" class="key hold">~</text>
+<text x="-22" y="-22" class="key tl">~</text>
+<text x="22" y="-22" class="key tr">*</text>
+</g>
+<g transform="translate(95, 192)" class="key keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Z</text>
+<text x="-22" y="-22" class="key tl">#</text>
+<text x="22" y="-22" class="key tr">Enter</text>
+<text x="-22" y="22" class="key bl">F12</text>
+</g>
+<g transform="translate(151, 157)" class="key keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">X</text>
+<text x="-22" y="-22" class="key tl">^</text>
+<text x="22" y="-22" class="key tr">9</text>
+<text x="-22" y="22" class="key bl">F9</text>
+</g>
+<g transform="translate(207, 140)" class="key keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">C</text>
+<text x="-22" y="-22" class="key tl">|</text>
+<text x="22" y="-22" class="key tr">6</text>
+<text x="-22" y="22" class="key bl">F6</text>
+</g>
+<g transform="translate(263, 156)" class="key keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">V</text>
+<text x="-22" y="-22" class="key tl">{</text>
+<text x="22" y="-22" class="key tr">3</text>
+<text x="-22" y="22" class="key bl">F3</text>
+</g>
+<g transform="translate(319, 164)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">B</text>
+<text x="-22" y="-22" class="key tl">}</text>
+<text x="22" y="-22" class="key tr">\</text>
+<text x="-22" y="22" class="key bl"><tspan style="font-size: 64%">PAUSE BREAK</tspan></text>
+</g>
+<g transform="translate(375, 189)" class="key keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">APP</text>
+</g>
+<g transform="translate(515, 189)" class="key keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">
+<tspan x="0" dy="-0.6em">Caps</tspan><tspan x="0" dy="1.2em">Word</tspan>
+</text>
+<text x="-22" y="22" class="key bl">BT CLR</text>
+</g>
+<g transform="translate(571, 164)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">N</text>
+<text x="-22" y="-22" class="key tl">REDO</text>
+<text x="-22" y="22" class="key bl">BT 1</text>
+</g>
+<g transform="translate(627, 156)" class="key keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">M</text>
+<text x="-22" y="-22" class="key tl">Ins</text>
+<use href="#composite_msc_SCRL_LEFT_f91377ad" xlink:href="#composite_msc_SCRL_LEFT_f91377ad" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_LEFT_f91377ad"/>
+<text x="-22" y="22" class="key bl">BT 2</text>
+</g>
+<g transform="translate(683, 140)" class="key keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">,</text>
+<use href="#composite_smart_mouse_1362bede" xlink:href="#composite_smart_mouse_1362bede" x="-9" y="4" height="18" width="18.0" class="key hold glyph composite_smart_mouse_1362bede"/>
+<text x="-22" y="-22" class="key tl">COPY</text>
+<use href="#composite_msc_SCRL_DOWN_2ebd2772" xlink:href="#composite_msc_SCRL_DOWN_2ebd2772" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_DOWN_2ebd2772"/>
+<text x="-22" y="22" class="key bl">BT 3</text>
+</g>
+<g transform="translate(739, 157)" class="key keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">.</text>
+<use href="#material:drag_pan" xlink:href="#material:drag_pan" x="-9" y="4" height="18" width="18.0" class="key hold glyph material:drag_pan"/>
+<text x="-22" y="-22" class="key tl">PASTE</text>
+<use href="#composite_msc_SCRL_UP_716f2faf" xlink:href="#composite_msc_SCRL_UP_716f2faf" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_UP_716f2faf"/>
+<text x="-22" y="22" class="key bl">BT 4</text>
+</g>
+<g transform="translate(795, 192)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">/</text>
+<text x="-22" y="-22" class="key tl">CUT</text>
+<use href="#composite_msc_SCRL_RIGHT_c32642b1" xlink:href="#composite_msc_SCRL_RIGHT_c32642b1" x="8" y="-22" height="14" width="14.0" class="key tr glyph composite_msc_SCRL_RIGHT_c32642b1"/>
+<text x="-22" y="22" class="key bl">BT 5</text>
+</g>
+<g transform="translate(851, 203)" class="key keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">&#x27;</text>
+<text x="0" y="22" class="key hold">&quot;</text>
+<use href="#fa:solid/repeat" xlink:href="#fa:solid/repeat" x="-22" y="8" height="14" width="14.0" class="key bl glyph fa:solid/repeat"/>
+</g>
+<g transform="translate(235, 212)" class="key keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#fa:solid/repeat" xlink:href="#fa:solid/repeat" x="-12" y="-10" height="23" width="23.0" class="key tap glyph fa:solid/repeat"/>
+</g>
+<g transform="translate(291, 220)" class="key keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Esc</text>
+<text x="0" y="22" class="key hold"><tspan style="font-size: 70%">Navigation</tspan></text>
+<text x="22" y="22" class="key br">.</text>
+</g>
+<g transform="translate(347, 245)" class="key keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Spc</text>
+<text x="0" y="22" class="key hold">Mouse</text>
+<text x="22" y="22" class="key br">0</text>
+</g>
+<g transform="translate(403, 277)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Tab</text>
+<text x="0" y="22" class="key hold">Media</text>
+<text x="22" y="22" class="key br">-</text>
+</g>
+<g transform="translate(487, 277)" class="key keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Enter</text>
+<text x="0" y="22" class="key hold">Symbol</text>
+<text x="-22" y="-22" class="key tl">ENTER</text>
+<text x="22" y="-22" class="key tr"><tspan style="font-size: 64%">Middle Cli…</tspan></text>
+<text x="-22" y="22" class="key bl">STOP</text>
+</g>
+<g transform="translate(543, 245)" class="key keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<text x="0" y="22" class="key hold">Number</text>
+<text x="-22" y="-22" class="key tl">Bspc</text>
+<text x="22" y="-22" class="key tr"><tspan style="font-size: 70%">Left Click</tspan></text>
+<text x="-22" y="22" class="key bl"><tspan style="font-size: 70%">PLAY PAUSE</tspan></text>
+</g>
+<g transform="translate(599, 220)" class="key keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="1" class="key tap">Del</text>
+<text x="0" y="22" class="key hold"><tspan style="font-size: 88%">Function</tspan></text>
+<text x="-22" y="-22" class="key tl">Del</text>
+<text x="22" y="-22" class="key tr"><tspan style="font-size: 64%">Right Click</tspan></text>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-22" y="8" height="14" width="14.0" class="key bl glyph mdi:volume-off"/>
+</g>
+<g transform="translate(655, 212)" class="key keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#fa:solid/repeat" xlink:href="#fa:solid/repeat" x="-12" y="-10" height="23" width="23.0" class="key tap glyph fa:solid/repeat"/>
+</g>
+</g>
+</g>
+<g transform="translate(10, 315)" class="layer-Combos">
+<text x="0" y="5" class="label" id="Combos">Combos</text>
+<g transform="translate(0, 10)">
+<g transform="translate(28, 91)" class="key keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(84, 80)" class="key keypos-1">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(146, 45)" class="key keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(207, 28)" class="key keypos-3">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(263, 44)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(319, 52)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(571, 52)" class="key keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(627, 44)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(683, 28)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(745, 45)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(806, 80)" class="key keypos-10">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(862, 91)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(34, 147)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(90, 136)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(148, 101)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(207, 84)" class="key keypos-15">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(263, 100)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(319, 108)" class="key keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(571, 108)" class="key keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(627, 100)" class="key keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(683, 84)" class="key keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(742, 101)" class="key keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(801, 136)" class="key keypos-22">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(857, 147)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(39, 203)" class="key keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(95, 192)" class="key keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(151, 157)" class="key keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(207, 140)" class="key keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(263, 156)" class="key keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(319, 164)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(375, 189)" class="key keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(515, 189)" class="key keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(571, 164)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(627, 156)" class="key keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(683, 140)" class="key keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(739, 157)" class="key keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(795, 192)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(851, 203)" class="key keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(235, 212)" class="key keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(291, 220)" class="key keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(347, 245)" class="key keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(403, 277)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(487, 277)" class="key keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(543, 245)" class="key keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(599, 220)" class="key keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(655, 212)" class="key keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g class="combo combopos-0">
+<path d="M445,100 l-163,0" class="combo"/>
+<path d="M445,100 l163,0" class="combo"/>
+<rect rx="6" ry="6" x="431" y="87" width="28" height="26" class="combo"/>
+<text x="445" y="100" class="combo tap">
+<tspan x="445" dy="-0.6em">Caps</tspan><tspan x="445" dy="1.2em">Word</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<path d="M445,91 l-399,0" class="combo"/>
+<path d="M445,91 l399,0" class="combo"/>
+<rect rx="6" ry="6" x="431" y="78" width="28" height="26" class="combo"/>
+<text x="445" y="91" class="combo tap">&amp;szia</text>
+</g>
+<g class="combo combopos-2">
+<path d="M445,147 l-393,0" class="combo"/>
+<path d="M445,147 l393,0" class="combo"/>
+<rect rx="6" ry="6" x="431" y="134" width="28" height="26" class="combo"/>
+<text x="445" y="147" class="combo tap">&amp;udv</text>
+</g>
+</g>
+</g>
+<text x="900.0" y="634.0" class="footer">Hillside46</text></svg>

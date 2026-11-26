@@ -121,7 +121,7 @@ draw-hillside46:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    keymap -c "{{ draw }}/config.yaml" parse \
+    keymap --debug -c "{{ draw }}/config.yaml" parse \
         -z "{{ config }}/hillside46.keymap" \
         --virtual-layers Combos \
         > "{{ draw }}/hillside46.yaml"
@@ -134,7 +134,7 @@ draw-hillside46:
         --draw-config "{{ draw }}/config.yaml" \
         --css-output "{{ draw }}/hillside46-overview.css"
 
-    keymap -c "{{ draw }}/config.yaml" draw \
+    keymap --debug -c "{{ draw }}/config.yaml" draw \
         "{{ draw }}/hillside46-overview.yaml" \
         > "{{ draw }}/hillside46-overview.svg"
 

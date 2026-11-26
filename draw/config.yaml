@@ -113,7 +113,7 @@ parse_config:
     C_NEXT: $$mdi:skip-forward$$
     C_PREV: $$mdi:skip-backward$$
 
-    KP_NUMLOCK: $$ph:ph-calculator$$
+    KP_NUMLOCK: $$phosphor:regular/calculator$$
     KP_COMMA: ","
     KP_PLUS: "+"
     KP_MINUS: "-"
@@ -191,9 +191,9 @@ draw_config:
   append_colon_to_layer_header: false
   dark_mode: true
   footer_text: "Hillside46"
-  glyph_tap_size: 15
-  glyph_hold_size: 12
-  glyph_shifted_size: 10
+  glyph_tap_size: 23
+  glyph_hold_size: 18
+  glyph_shifted_size: 14
   legend_rel_y: 1
   outer_pad_w: 10
   outer_pad_h: 10
